@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/anlh/chien/test_clustering
+CMAKE_SOURCE_DIR = /home/admin11/test_clustering
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/anlh/chien/test_clustering/build
+CMAKE_BINARY_DIR = /home/admin11/test_clustering/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/anlh/chien/test_clustering/build/CMakeFiles /home/anlh/chien/test_clustering/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/admin11/test_clustering/build/CMakeFiles /home/admin11/test_clustering/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/anlh/chien/test_clustering/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/admin11/test_clustering/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -128,6 +128,19 @@ test_clustering: cmake_check_build_system
 test_clustering/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_clustering.dir/build.make CMakeFiles/test_clustering.dir/build
 .PHONY : test_clustering/fast
+
+#=============================================================================
+# Target rules for targets named test_g2o
+
+# Build rule for target.
+test_g2o: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_g2o
+.PHONY : test_g2o
+
+# fast build rule for target.
+test_g2o/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_g2o.dir/build.make CMakeFiles/test_g2o.dir/build
+.PHONY : test_g2o/fast
 
 src/obstacles.o: src/obstacles.cpp.o
 .PHONY : src/obstacles.o
@@ -177,6 +190,30 @@ src/test.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_clustering.dir/build.make CMakeFiles/test_clustering.dir/src/test.cpp.s
 .PHONY : src/test.cpp.s
 
+src/test_g2o.o: src/test_g2o.cpp.o
+.PHONY : src/test_g2o.o
+
+# target to build an object file
+src/test_g2o.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_g2o.dir/build.make CMakeFiles/test_g2o.dir/src/test_g2o.cpp.o
+.PHONY : src/test_g2o.cpp.o
+
+src/test_g2o.i: src/test_g2o.cpp.i
+.PHONY : src/test_g2o.i
+
+# target to preprocess a source file
+src/test_g2o.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_g2o.dir/build.make CMakeFiles/test_g2o.dir/src/test_g2o.cpp.i
+.PHONY : src/test_g2o.cpp.i
+
+src/test_g2o.s: src/test_g2o.cpp.s
+.PHONY : src/test_g2o.s
+
+# target to generate assembly for a file
+src/test_g2o.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_g2o.dir/build.make CMakeFiles/test_g2o.dir/src/test_g2o.cpp.s
+.PHONY : src/test_g2o.cpp.s
+
 src/ultis.o: src/ultis.cpp.o
 .PHONY : src/ultis.o
 
@@ -210,12 +247,16 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... test_clustering"
+	@echo "... test_g2o"
 	@echo "... src/obstacles.o"
 	@echo "... src/obstacles.i"
 	@echo "... src/obstacles.s"
 	@echo "... src/test.o"
 	@echo "... src/test.i"
 	@echo "... src/test.s"
+	@echo "... src/test_g2o.o"
+	@echo "... src/test_g2o.i"
+	@echo "... src/test_g2o.s"
 	@echo "... src/ultis.o"
 	@echo "... src/ultis.i"
 	@echo "... src/ultis.s"
