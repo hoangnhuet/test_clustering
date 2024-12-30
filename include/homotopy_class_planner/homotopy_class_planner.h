@@ -56,6 +56,8 @@
 #include "robot_footprint_model.h"
 #include "equivalence_relations.h"
 #include "graph_search.h"
+// include opencv
+#include <opencv2/opencv.hpp>
 
 
 namespace teb_local_planner
@@ -148,6 +150,7 @@ public:
    *		      otherwise the final velocity will be zero (default: false)
    * @return \c true if planning was successful, \c false otherwise
    */
+
   virtual bool plan(const std::vector<Pose2D>& initial_plan, const Twist* start_vel = NULL, bool free_goal_vel=false);
 
 

@@ -1,23 +1,22 @@
 CMakeFiles/test_planner.dir/src/optimization/optimal_planner.cpp.o: \
- /home/admin11/test_clustering/src/optimization/optimal_planner.cpp \
+ /home/qdt/isolated_teb/test_clustering/src/optimization/optimal_planner.cpp \
  /usr/include/stdc-predef.h \
- /home/admin11/test_clustering/include/optimization/optimal_planner.h \
- /usr/include/c++/11/math.h /usr/include/c++/11/cmath \
- /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
- /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
- /usr/include/features.h /usr/include/features-time64.h \
+ /home/qdt/isolated_teb/test_clustering/include/optimization/optimal_planner.h \
+ /usr/include/c++/9/math.h /usr/include/c++/9/cmath \
+ /usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h \
+ /usr/include/x86_64-linux-gnu/c++/9/bits/os_defines.h \
+ /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
- /usr/include/x86_64-linux-gnu/bits/timesize.h \
- /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/long-double.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
- /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h \
- /usr/include/c++/11/pstl/pstl_config.h \
- /usr/include/c++/11/bits/cpp_type_traits.h \
- /usr/include/c++/11/ext/type_traits.h /usr/include/math.h \
+ /usr/include/x86_64-linux-gnu/c++/9/bits/cpu_defines.h \
+ /usr/include/c++/9/pstl/pstl_config.h \
+ /usr/include/c++/9/bits/cpp_type_traits.h \
+ /usr/include/c++/9/ext/type_traits.h /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/x86_64-linux-gnu/bits/types.h \
+ /usr/include/x86_64-linux-gnu/bits/timesize.h \
  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
  /usr/include/x86_64-linux-gnu/bits/time64.h \
  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
@@ -31,8 +30,8 @@ CMakeFiles/test_planner.dir/src/optimization/optimal_planner.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
- /usr/include/c++/11/bits/std_abs.h /usr/include/stdlib.h \
- /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
+ /usr/include/c++/9/bits/std_abs.h /usr/include/stdlib.h \
+ /usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h \
  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
@@ -56,74 +55,66 @@ CMakeFiles/test_planner.dir/src/optimization/optimal_planner.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
- /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
- /usr/include/c++/11/bits/specfun.h \
- /usr/include/c++/11/bits/stl_algobase.h \
- /usr/include/c++/11/bits/functexcept.h \
- /usr/include/c++/11/bits/exception_defines.h \
- /usr/include/c++/11/ext/numeric_traits.h \
- /usr/include/c++/11/bits/stl_pair.h /usr/include/c++/11/bits/move.h \
- /usr/include/c++/11/type_traits \
- /usr/include/c++/11/bits/stl_iterator_base_types.h \
- /usr/include/c++/11/bits/stl_iterator_base_funcs.h \
- /usr/include/c++/11/bits/concept_check.h \
- /usr/include/c++/11/debug/assertions.h \
- /usr/include/c++/11/bits/stl_iterator.h \
- /usr/include/c++/11/bits/ptr_traits.h /usr/include/c++/11/debug/debug.h \
- /usr/include/c++/11/bits/predefined_ops.h /usr/include/c++/11/limits \
- /usr/include/c++/11/tr1/gamma.tcc \
- /usr/include/c++/11/tr1/special_function_util.h \
- /usr/include/c++/11/tr1/bessel_function.tcc \
- /usr/include/c++/11/tr1/beta_function.tcc \
- /usr/include/c++/11/tr1/ell_integral.tcc \
- /usr/include/c++/11/tr1/exp_integral.tcc \
- /usr/include/c++/11/tr1/hypergeometric.tcc \
- /usr/include/c++/11/tr1/legendre_function.tcc \
- /usr/include/c++/11/tr1/modified_bessel_func.tcc \
- /usr/include/c++/11/tr1/poly_hermite.tcc \
- /usr/include/c++/11/tr1/poly_laguerre.tcc \
- /usr/include/c++/11/tr1/riemann_zeta.tcc \
- /home/admin11/test_clustering/include/teb_config.h \
+ /usr/include/c++/9/bits/specfun.h /usr/include/c++/9/bits/stl_algobase.h \
+ /usr/include/c++/9/bits/functexcept.h \
+ /usr/include/c++/9/bits/exception_defines.h \
+ /usr/include/c++/9/ext/numeric_traits.h \
+ /usr/include/c++/9/bits/stl_pair.h /usr/include/c++/9/bits/move.h \
+ /usr/include/c++/9/bits/concept_check.h /usr/include/c++/9/type_traits \
+ /usr/include/c++/9/bits/stl_iterator_base_types.h \
+ /usr/include/c++/9/bits/stl_iterator_base_funcs.h \
+ /usr/include/c++/9/debug/assertions.h \
+ /usr/include/c++/9/bits/stl_iterator.h \
+ /usr/include/c++/9/bits/ptr_traits.h /usr/include/c++/9/debug/debug.h \
+ /usr/include/c++/9/bits/predefined_ops.h /usr/include/c++/9/limits \
+ /usr/include/c++/9/tr1/gamma.tcc \
+ /usr/include/c++/9/tr1/special_function_util.h \
+ /usr/include/c++/9/tr1/bessel_function.tcc \
+ /usr/include/c++/9/tr1/beta_function.tcc \
+ /usr/include/c++/9/tr1/ell_integral.tcc \
+ /usr/include/c++/9/tr1/exp_integral.tcc \
+ /usr/include/c++/9/tr1/hypergeometric.tcc \
+ /usr/include/c++/9/tr1/legendre_function.tcc \
+ /usr/include/c++/9/tr1/modified_bessel_func.tcc \
+ /usr/include/c++/9/tr1/poly_hermite.tcc \
+ /usr/include/c++/9/tr1/poly_laguerre.tcc \
+ /usr/include/c++/9/tr1/riemann_zeta.tcc \
+ /home/qdt/isolated_teb/test_clustering/include/teb_config.h \
  /usr/include/eigen3/Eigen/StdVector /usr/include/eigen3/Eigen/Core \
  /usr/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h \
+ /usr/include/c++/9/new /usr/include/c++/9/exception \
+ /usr/include/c++/9/bits/exception.h \
+ /usr/include/c++/9/bits/exception_ptr.h \
+ /usr/include/c++/9/bits/cxxabi_init_exception.h \
+ /usr/include/c++/9/typeinfo /usr/include/c++/9/bits/hash_bytes.h \
+ /usr/include/c++/9/bits/nested_exception.h \
  /usr/include/eigen3/Eigen/src/Core/util/Macros.h \
- /usr/include/eigen3/Eigen/src/Core/util/ConfigureVectorization.h \
- /usr/lib/gcc/x86_64-linux-gnu/11/include/mmintrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/11/include/emmintrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/11/include/xmmintrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/11/include/mm_malloc.h \
- /usr/include/c++/11/stdlib.h /usr/include/c++/11/cstdlib \
- /usr/include/c++/11/new /usr/include/c++/11/bits/exception.h \
- /usr/include/c++/11/complex /usr/include/c++/11/sstream \
- /usr/include/c++/11/istream /usr/include/c++/11/ios \
- /usr/include/c++/11/iosfwd /usr/include/c++/11/bits/stringfwd.h \
- /usr/include/c++/11/bits/memoryfwd.h /usr/include/c++/11/bits/postypes.h \
- /usr/include/c++/11/cwchar /usr/include/wchar.h \
- /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
+ /usr/include/c++/9/complex /usr/include/c++/9/sstream \
+ /usr/include/c++/9/istream /usr/include/c++/9/ios \
+ /usr/include/c++/9/iosfwd /usr/include/c++/9/bits/stringfwd.h \
+ /usr/include/c++/9/bits/memoryfwd.h /usr/include/c++/9/bits/postypes.h \
+ /usr/include/c++/9/cwchar /usr/include/wchar.h \
+ /usr/lib/gcc/x86_64-linux-gnu/9/include/stdarg.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
- /usr/include/c++/11/exception /usr/include/c++/11/bits/exception_ptr.h \
- /usr/include/c++/11/bits/cxxabi_init_exception.h \
- /usr/include/c++/11/typeinfo /usr/include/c++/11/bits/hash_bytes.h \
- /usr/include/c++/11/bits/nested_exception.h \
- /usr/include/c++/11/bits/char_traits.h /usr/include/c++/11/cstdint \
- /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
+ /usr/include/c++/9/bits/char_traits.h /usr/include/c++/9/cstdint \
+ /usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /usr/include/c++/11/bits/localefwd.h \
- /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h \
- /usr/include/c++/11/clocale /usr/include/locale.h \
- /usr/include/x86_64-linux-gnu/bits/locale.h /usr/include/c++/11/cctype \
- /usr/include/ctype.h /usr/include/c++/11/bits/ios_base.h \
- /usr/include/c++/11/ext/atomicity.h \
- /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h \
- /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h \
+ /usr/include/c++/9/bits/localefwd.h \
+ /usr/include/x86_64-linux-gnu/c++/9/bits/c++locale.h \
+ /usr/include/c++/9/clocale /usr/include/locale.h \
+ /usr/include/x86_64-linux-gnu/bits/locale.h /usr/include/c++/9/cctype \
+ /usr/include/ctype.h /usr/include/c++/9/bits/ios_base.h \
+ /usr/include/c++/9/ext/atomicity.h \
+ /usr/include/x86_64-linux-gnu/c++/9/bits/gthr.h \
+ /usr/include/x86_64-linux-gnu/c++/9/bits/gthr-default.h \
  /usr/include/pthread.h /usr/include/sched.h \
  /usr/include/x86_64-linux-gnu/bits/sched.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
@@ -133,133 +124,122 @@ CMakeFiles/test_planner.dir/src/optimization/optimal_planner.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
- /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
- /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h \
- /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
- /usr/include/c++/11/bits/locale_classes.h /usr/include/c++/11/string \
- /usr/include/c++/11/bits/allocator.h \
- /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
- /usr/include/c++/11/ext/new_allocator.h \
- /usr/include/c++/11/bits/ostream_insert.h \
- /usr/include/c++/11/bits/cxxabi_forced.h \
- /usr/include/c++/11/bits/stl_function.h \
- /usr/include/c++/11/backward/binders.h \
- /usr/include/c++/11/bits/range_access.h \
- /usr/include/c++/11/initializer_list \
- /usr/include/c++/11/bits/basic_string.h \
- /usr/include/c++/11/ext/alloc_traits.h \
- /usr/include/c++/11/bits/alloc_traits.h \
- /usr/include/c++/11/bits/stl_construct.h /usr/include/c++/11/string_view \
- /usr/include/c++/11/bits/functional_hash.h \
- /usr/include/c++/11/bits/string_view.tcc \
- /usr/include/c++/11/ext/string_conversions.h /usr/include/c++/11/cstdio \
- /usr/include/stdio.h /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+ /usr/include/x86_64-linux-gnu/c++/9/bits/atomic_word.h \
+ /usr/include/c++/9/bits/locale_classes.h /usr/include/c++/9/string \
+ /usr/include/c++/9/bits/allocator.h \
+ /usr/include/x86_64-linux-gnu/c++/9/bits/c++allocator.h \
+ /usr/include/c++/9/ext/new_allocator.h \
+ /usr/include/c++/9/bits/ostream_insert.h \
+ /usr/include/c++/9/bits/cxxabi_forced.h \
+ /usr/include/c++/9/bits/stl_function.h \
+ /usr/include/c++/9/backward/binders.h \
+ /usr/include/c++/9/bits/range_access.h \
+ /usr/include/c++/9/initializer_list \
+ /usr/include/c++/9/bits/basic_string.h \
+ /usr/include/c++/9/ext/alloc_traits.h \
+ /usr/include/c++/9/bits/alloc_traits.h /usr/include/c++/9/string_view \
+ /usr/include/c++/9/bits/functional_hash.h \
+ /usr/include/c++/9/bits/string_view.tcc \
+ /usr/include/c++/9/ext/string_conversions.h /usr/include/c++/9/cstdlib \
+ /usr/include/c++/9/cstdio /usr/include/stdio.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
- /usr/include/c++/11/cerrno /usr/include/errno.h \
+ /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
+ /usr/include/c++/9/cerrno /usr/include/errno.h \
  /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
  /usr/include/x86_64-linux-gnu/asm/errno.h \
  /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
- /usr/include/c++/11/bits/charconv.h \
- /usr/include/c++/11/bits/basic_string.tcc \
- /usr/include/c++/11/bits/locale_classes.tcc \
- /usr/include/c++/11/system_error \
- /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h \
- /usr/include/c++/11/stdexcept /usr/include/c++/11/streambuf \
- /usr/include/c++/11/bits/streambuf.tcc \
- /usr/include/c++/11/bits/basic_ios.h \
- /usr/include/c++/11/bits/locale_facets.h /usr/include/c++/11/cwctype \
+ /usr/include/c++/9/bits/basic_string.tcc \
+ /usr/include/c++/9/bits/locale_classes.tcc \
+ /usr/include/c++/9/system_error \
+ /usr/include/x86_64-linux-gnu/c++/9/bits/error_constants.h \
+ /usr/include/c++/9/stdexcept /usr/include/c++/9/streambuf \
+ /usr/include/c++/9/bits/streambuf.tcc \
+ /usr/include/c++/9/bits/basic_ios.h \
+ /usr/include/c++/9/bits/locale_facets.h /usr/include/c++/9/cwctype \
  /usr/include/wctype.h /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
- /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h \
- /usr/include/c++/11/bits/streambuf_iterator.h \
- /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h \
- /usr/include/c++/11/bits/locale_facets.tcc \
- /usr/include/c++/11/bits/basic_ios.tcc /usr/include/c++/11/ostream \
- /usr/include/c++/11/bits/ostream.tcc \
- /usr/include/c++/11/bits/istream.tcc \
- /usr/include/c++/11/bits/sstream.tcc \
+ /usr/include/x86_64-linux-gnu/c++/9/bits/ctype_base.h \
+ /usr/include/c++/9/bits/streambuf_iterator.h \
+ /usr/include/x86_64-linux-gnu/c++/9/bits/ctype_inline.h \
+ /usr/include/c++/9/bits/locale_facets.tcc \
+ /usr/include/c++/9/bits/basic_ios.tcc /usr/include/c++/9/ostream \
+ /usr/include/c++/9/bits/ostream.tcc /usr/include/c++/9/bits/istream.tcc \
+ /usr/include/c++/9/bits/sstream.tcc \
  /usr/include/eigen3/Eigen/src/Core/util/MKL_support.h \
- /usr/include/c++/11/cstddef /usr/include/c++/11/cassert \
- /usr/include/assert.h /usr/include/c++/11/functional \
- /usr/include/c++/11/tuple /usr/include/c++/11/utility \
- /usr/include/c++/11/bits/stl_relops.h /usr/include/c++/11/array \
- /usr/include/c++/11/bits/uses_allocator.h \
- /usr/include/c++/11/bits/invoke.h /usr/include/c++/11/bits/refwrap.h \
- /usr/include/c++/11/bits/std_function.h \
- /usr/include/c++/11/unordered_map \
- /usr/include/c++/11/ext/aligned_buffer.h \
- /usr/include/c++/11/bits/hashtable.h \
- /usr/include/c++/11/bits/hashtable_policy.h \
- /usr/include/c++/11/bits/enable_special_members.h \
- /usr/include/c++/11/bits/node_handle.h \
- /usr/include/c++/11/bits/unordered_map.h \
- /usr/include/c++/11/bits/erase_if.h /usr/include/c++/11/vector \
- /usr/include/c++/11/bits/stl_uninitialized.h \
- /usr/include/c++/11/bits/stl_vector.h \
- /usr/include/c++/11/bits/stl_bvector.h \
- /usr/include/c++/11/bits/vector.tcc /usr/include/c++/11/bits/stl_algo.h \
- /usr/include/c++/11/bits/algorithmfwd.h \
- /usr/include/c++/11/bits/stl_heap.h \
- /usr/include/c++/11/bits/stl_tempbuf.h \
- /usr/include/c++/11/bits/uniform_int_dist.h /usr/include/c++/11/cstring \
- /usr/include/string.h /usr/include/strings.h /usr/include/c++/11/climits \
- /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
- /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
+ /usr/lib/gcc/x86_64-linux-gnu/9/include/mmintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/9/include/emmintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/9/include/xmmintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/9/include/mm_malloc.h \
+ /usr/include/c++/9/stdlib.h /usr/include/c++/9/cstddef \
+ /usr/include/c++/9/cassert /usr/include/assert.h \
+ /usr/include/c++/9/functional /usr/include/c++/9/tuple \
+ /usr/include/c++/9/utility /usr/include/c++/9/bits/stl_relops.h \
+ /usr/include/c++/9/array /usr/include/c++/9/bits/uses_allocator.h \
+ /usr/include/c++/9/bits/invoke.h /usr/include/c++/9/bits/refwrap.h \
+ /usr/include/c++/9/bits/std_function.h /usr/include/c++/9/unordered_map \
+ /usr/include/c++/9/ext/aligned_buffer.h \
+ /usr/include/c++/9/bits/hashtable.h \
+ /usr/include/c++/9/bits/hashtable_policy.h \
+ /usr/include/c++/9/bits/node_handle.h /usr/include/c++/9/optional \
+ /usr/include/c++/9/bits/enable_special_members.h \
+ /usr/include/c++/9/bits/unordered_map.h \
+ /usr/include/c++/9/bits/erase_if.h /usr/include/c++/9/vector \
+ /usr/include/c++/9/bits/stl_construct.h \
+ /usr/include/c++/9/bits/stl_uninitialized.h \
+ /usr/include/c++/9/bits/stl_vector.h \
+ /usr/include/c++/9/bits/stl_bvector.h /usr/include/c++/9/bits/vector.tcc \
+ /usr/include/c++/9/bits/stl_algo.h \
+ /usr/include/c++/9/bits/algorithmfwd.h \
+ /usr/include/c++/9/bits/stl_heap.h /usr/include/c++/9/bits/stl_tempbuf.h \
+ /usr/include/c++/9/bits/uniform_int_dist.h /usr/include/c++/9/cstring \
+ /usr/include/string.h /usr/include/strings.h /usr/include/c++/9/climits \
+ /usr/lib/gcc/x86_64-linux-gnu/9/include/limits.h \
+ /usr/lib/gcc/x86_64-linux-gnu/9/include/syslimits.h \
  /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
  /usr/include/linux/limits.h \
  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
- /usr/include/c++/11/algorithm \
- /usr/include/c++/11/pstl/glue_algorithm_defs.h \
- /usr/include/c++/11/pstl/execution_defs.h \
+ /usr/include/c++/9/algorithm \
+ /usr/include/c++/9/pstl/glue_algorithm_defs.h \
+ /usr/include/c++/9/pstl/execution_defs.h \
  /usr/include/eigen3/Eigen/src/Core/util/Constants.h \
  /usr/include/eigen3/Eigen/src/Core/util/Meta.h \
  /usr/include/eigen3/Eigen/src/Core/util/ForwardDeclarations.h \
  /usr/include/eigen3/Eigen/src/Core/util/StaticAssert.h \
  /usr/include/eigen3/Eigen/src/Core/util/XprHelper.h \
  /usr/include/eigen3/Eigen/src/Core/util/Memory.h \
- /usr/include/eigen3/Eigen/src/Core/util/IntegralConstant.h \
- /usr/include/eigen3/Eigen/src/Core/util/SymbolicIndex.h \
  /usr/include/eigen3/Eigen/src/Core/NumTraits.h \
  /usr/include/eigen3/Eigen/src/Core/MathFunctions.h \
  /usr/include/eigen3/Eigen/src/Core/GenericPacketMath.h \
  /usr/include/eigen3/Eigen/src/Core/MathFunctionsImpl.h \
  /usr/include/eigen3/Eigen/src/Core/arch/Default/ConjHelper.h \
- /usr/include/eigen3/Eigen/src/Core/arch/Default/Half.h \
- /usr/include/eigen3/Eigen/src/Core/arch/Default/BFloat16.h \
- /usr/include/eigen3/Eigen/src/Core/arch/Default/TypeCasting.h \
- /usr/include/eigen3/Eigen/src/Core/arch/Default/GenericPacketMathFunctionsFwd.h \
  /usr/include/eigen3/Eigen/src/Core/arch/SSE/PacketMath.h \
- /usr/include/eigen3/Eigen/src/Core/arch/SSE/TypeCasting.h \
  /usr/include/eigen3/Eigen/src/Core/arch/SSE/MathFunctions.h \
  /usr/include/eigen3/Eigen/src/Core/arch/SSE/Complex.h \
+ /usr/include/eigen3/Eigen/src/Core/arch/SSE/TypeCasting.h \
+ /usr/include/eigen3/Eigen/src/Core/arch/CUDA/Half.h \
+ /usr/include/eigen3/Eigen/src/Core/arch/CUDA/PacketMathHalf.h \
+ /usr/include/eigen3/Eigen/src/Core/arch/CUDA/TypeCasting.h \
  /usr/include/eigen3/Eigen/src/Core/arch/Default/Settings.h \
- /usr/include/eigen3/Eigen/src/Core/arch/Default/GenericPacketMathFunctions.h \
  /usr/include/eigen3/Eigen/src/Core/functors/TernaryFunctors.h \
  /usr/include/eigen3/Eigen/src/Core/functors/BinaryFunctors.h \
  /usr/include/eigen3/Eigen/src/Core/functors/UnaryFunctors.h \
  /usr/include/eigen3/Eigen/src/Core/functors/NullaryFunctors.h \
  /usr/include/eigen3/Eigen/src/Core/functors/StlFunctors.h \
  /usr/include/eigen3/Eigen/src/Core/functors/AssignmentFunctors.h \
- /usr/include/eigen3/Eigen/src/Core/util/IndexedViewHelper.h \
- /usr/include/eigen3/Eigen/src/Core/util/ReshapedHelper.h \
- /usr/include/eigen3/Eigen/src/Core/ArithmeticSequence.h \
+ /usr/include/eigen3/Eigen/src/Core/arch/CUDA/Complex.h \
  /usr/include/eigen3/Eigen/src/Core/IO.h \
  /usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h \
  /usr/include/eigen3/Eigen/src/Core/DenseBase.h \
- /usr/include/eigen3/Eigen/src/Core/../plugins/CommonCwiseUnaryOps.h \
  /usr/include/eigen3/Eigen/src/Core/../plugins/BlockMethods.h \
- /usr/include/eigen3/Eigen/src/Core/../plugins/IndexedViewMethods.h \
- /usr/include/eigen3/Eigen/src/Core/../plugins/IndexedViewMethods.h \
- /usr/include/eigen3/Eigen/src/Core/../plugins/ReshapedMethods.h \
- /usr/include/eigen3/Eigen/src/Core/../plugins/ReshapedMethods.h \
  /usr/include/eigen3/Eigen/src/Core/MatrixBase.h \
+ /usr/include/eigen3/Eigen/src/Core/../plugins/CommonCwiseUnaryOps.h \
  /usr/include/eigen3/Eigen/src/Core/../plugins/CommonCwiseBinaryOps.h \
  /usr/include/eigen3/Eigen/src/Core/../plugins/MatrixCwiseUnaryOps.h \
  /usr/include/eigen3/Eigen/src/Core/../plugins/MatrixCwiseBinaryOps.h \
@@ -293,8 +273,6 @@ CMakeFiles/test_planner.dir/src/optimization/optimal_planner.cpp.o: \
  /usr/include/eigen3/Eigen/src/Core/Ref.h \
  /usr/include/eigen3/Eigen/src/Core/Block.h \
  /usr/include/eigen3/Eigen/src/Core/VectorBlock.h \
- /usr/include/eigen3/Eigen/src/Core/IndexedView.h \
- /usr/include/eigen3/Eigen/src/Core/Reshaped.h \
  /usr/include/eigen3/Eigen/src/Core/Transpose.h \
  /usr/include/eigen3/Eigen/src/Core/DiagonalMatrix.h \
  /usr/include/eigen3/Eigen/src/Core/Diagonal.h \
@@ -314,8 +292,6 @@ CMakeFiles/test_planner.dir/src/optimization/optimal_planner.cpp.o: \
  /usr/include/eigen3/Eigen/src/Core/SelfAdjointView.h \
  /usr/include/eigen3/Eigen/src/Core/products/GeneralBlockPanelKernel.h \
  /usr/include/eigen3/Eigen/src/Core/products/Parallelizer.h \
- /usr/include/c++/11/atomic /usr/include/c++/11/bits/atomic_base.h \
- /usr/include/c++/11/bits/atomic_lockfree_defines.h \
  /usr/include/eigen3/Eigen/src/Core/ProductEvaluators.h \
  /usr/include/eigen3/Eigen/src/Core/products/GeneralMatrixVector.h \
  /usr/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrix.h \
@@ -335,12 +311,10 @@ CMakeFiles/test_planner.dir/src/optimization/optimal_planner.cpp.o: \
  /usr/include/eigen3/Eigen/src/Core/BooleanRedux.h \
  /usr/include/eigen3/Eigen/src/Core/Select.h \
  /usr/include/eigen3/Eigen/src/Core/VectorwiseOp.h \
- /usr/include/eigen3/Eigen/src/Core/PartialReduxEvaluator.h \
  /usr/include/eigen3/Eigen/src/Core/Random.h \
  /usr/include/eigen3/Eigen/src/Core/Replicate.h \
  /usr/include/eigen3/Eigen/src/Core/Reverse.h \
  /usr/include/eigen3/Eigen/src/Core/ArrayWrapper.h \
- /usr/include/eigen3/Eigen/src/Core/StlIterators.h \
  /usr/include/eigen3/Eigen/src/Core/GlobalFunctions.h \
  /usr/include/eigen3/Eigen/src/Core/util/ReenableStupidWarnings.h \
  /usr/include/eigen3/Eigen/src/StlSupport/StdVector.h \
@@ -352,7 +326,6 @@ CMakeFiles/test_planner.dir/src/optimization/optimal_planner.cpp.o: \
  /usr/include/boost/config/detail/select_compiler_config.hpp \
  /usr/include/boost/config/compiler/gcc.hpp \
  /usr/include/boost/config/detail/select_stdlib_config.hpp \
- /usr/include/c++/11/version \
  /usr/include/boost/config/stdlib/libstdcpp3.hpp /usr/include/unistd.h \
  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
  /usr/include/x86_64-linux-gnu/bits/environments.h \
@@ -360,7 +333,6 @@ CMakeFiles/test_planner.dir/src/optimization/optimal_planner.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
- /usr/include/linux/close_range.h \
  /usr/include/boost/config/detail/select_platform_config.hpp \
  /usr/include/boost/config/platform/linux.hpp \
  /usr/include/boost/config/detail/posix_features.hpp \
@@ -377,44 +349,47 @@ CMakeFiles/test_planner.dir/src/optimization/optimal_planner.cpp.o: \
  /usr/include/boost/detail/workaround.hpp \
  /usr/include/boost/config/workaround.hpp \
  /usr/include/boost/smart_ptr/shared_ptr.hpp \
+ /usr/include/boost/config/no_tr1/memory.hpp /usr/include/c++/9/memory \
+ /usr/include/c++/9/bits/stl_raw_storage_iter.h \
+ /usr/include/c++/9/ext/concurrence.h \
+ /usr/include/c++/9/bits/unique_ptr.h \
+ /usr/include/c++/9/bits/shared_ptr.h \
+ /usr/include/c++/9/bits/shared_ptr_base.h \
+ /usr/include/c++/9/bits/allocated_ptr.h \
+ /usr/include/c++/9/bits/shared_ptr_atomic.h \
+ /usr/include/c++/9/bits/atomic_base.h \
+ /usr/include/c++/9/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/9/backward/auto_ptr.h \
+ /usr/include/c++/9/pstl/glue_memory_defs.h /usr/include/boost/assert.hpp \
+ /usr/include/boost/checked_delete.hpp \
+ /usr/include/boost/core/checked_delete.hpp \
+ /usr/include/boost/throw_exception.hpp \
+ /usr/include/boost/exception/exception.hpp \
+ /usr/include/boost/current_function.hpp \
  /usr/include/boost/smart_ptr/detail/shared_count.hpp \
  /usr/include/boost/smart_ptr/bad_weak_ptr.hpp \
  /usr/include/boost/smart_ptr/detail/sp_counted_base.hpp \
- /usr/include/boost/smart_ptr/detail/sp_has_gcc_intrinsics.hpp \
- /usr/include/boost/smart_ptr/detail/sp_has_sync_intrinsics.hpp \
- /usr/include/boost/smart_ptr/detail/sp_counted_base_gcc_atomic.hpp \
+ /usr/include/boost/smart_ptr/detail/sp_has_sync.hpp \
+ /usr/include/boost/smart_ptr/detail/sp_counted_base_std_atomic.hpp \
  /usr/include/boost/smart_ptr/detail/sp_typeinfo_.hpp \
- /usr/include/boost/cstdint.hpp \
- /usr/include/boost/smart_ptr/detail/sp_counted_impl.hpp \
  /usr/include/boost/smart_ptr/detail/sp_noexcept.hpp \
- /usr/include/boost/checked_delete.hpp \
- /usr/include/boost/core/checked_delete.hpp \
- /usr/include/boost/core/addressof.hpp /usr/include/c++/11/memory \
- /usr/include/c++/11/bits/stl_raw_storage_iter.h \
- /usr/include/c++/11/bits/align.h /usr/include/c++/11/bit \
- /usr/include/c++/11/bits/unique_ptr.h \
- /usr/include/c++/11/bits/shared_ptr.h \
- /usr/include/c++/11/bits/shared_ptr_base.h \
- /usr/include/c++/11/bits/allocated_ptr.h \
- /usr/include/c++/11/ext/concurrence.h \
- /usr/include/c++/11/bits/shared_ptr_atomic.h \
- /usr/include/c++/11/backward/auto_ptr.h \
- /usr/include/c++/11/pstl/glue_memory_defs.h \
+ /usr/include/c++/9/atomic \
+ /usr/include/boost/smart_ptr/detail/sp_counted_impl.hpp \
+ /usr/include/boost/core/addressof.hpp \
  /usr/include/boost/smart_ptr/detail/sp_disable_deprecated.hpp \
- /usr/include/boost/throw_exception.hpp \
- /usr/include/boost/assert/source_location.hpp \
- /usr/include/boost/current_function.hpp \
- /usr/include/boost/exception/exception.hpp \
  /usr/include/boost/smart_ptr/detail/sp_convertible.hpp \
  /usr/include/boost/smart_ptr/detail/sp_nullptr_t.hpp \
- /usr/include/boost/assert.hpp \
  /usr/include/boost/smart_ptr/detail/spinlock_pool.hpp \
  /usr/include/boost/smart_ptr/detail/spinlock.hpp \
- /usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp \
+ /usr/include/boost/smart_ptr/detail/spinlock_std_atomic.hpp \
  /usr/include/boost/smart_ptr/detail/yield_k.hpp \
- /usr/include/boost/smart_ptr/detail/sp_thread_pause.hpp \
- /usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp \
- /usr/include/boost/config/pragma_message.hpp \
+ /usr/include/boost/predef/platform/windows_runtime.h \
+ /usr/include/boost/predef/make.h /usr/include/boost/predef/detail/test.h \
+ /usr/include/boost/predef/os/windows.h \
+ /usr/include/boost/predef/version_number.h \
+ /usr/include/boost/predef/platform/windows_phone.h \
+ /usr/include/boost/predef/platform/windows_uwp.h \
+ /usr/include/boost/predef/platform/windows_store.h \
  /usr/include/boost/smart_ptr/detail/operator_bool.hpp \
  /usr/include/boost/smart_ptr/detail/local_sp_deleter.hpp \
  /usr/include/boost/smart_ptr/detail/local_counted_base.hpp \
@@ -439,8 +414,6 @@ CMakeFiles/test_planner.dir/src/optimization/optimal_planner.cpp.o: \
  /usr/include/boost/smart_ptr/make_shared_array.hpp \
  /usr/include/boost/core/default_allocator.hpp \
  /usr/include/boost/smart_ptr/allocate_shared_array.hpp \
- /usr/include/boost/core/allocator_access.hpp \
- /usr/include/boost/core/pointer_traits.hpp \
  /usr/include/boost/core/alloc_construct.hpp \
  /usr/include/boost/core/noinit_adaptor.hpp \
  /usr/include/boost/core/first_scalar.hpp \
@@ -462,17 +435,17 @@ CMakeFiles/test_planner.dir/src/optimization/optimal_planner.cpp.o: \
  /usr/include/boost/system/error_code.hpp \
  /usr/include/boost/system/api_config.hpp \
  /usr/include/boost/system/detail/config.hpp \
- /usr/include/boost/cerrno.hpp \
+ /usr/include/boost/cstdint.hpp /usr/include/boost/cerrno.hpp \
  /usr/include/boost/system/detail/generic_category.hpp \
  /usr/include/boost/system/detail/system_category_posix.hpp \
  /usr/include/boost/system/detail/std_interoperability.hpp \
- /usr/include/c++/11/map /usr/include/c++/11/bits/stl_tree.h \
- /usr/include/c++/11/bits/stl_map.h \
- /usr/include/c++/11/bits/stl_multimap.h /usr/include/c++/11/mutex \
- /usr/include/c++/11/chrono /usr/include/c++/11/ratio \
- /usr/include/c++/11/ctime /usr/include/c++/11/bits/parse_numbers.h \
- /usr/include/c++/11/bits/std_mutex.h \
- /usr/include/c++/11/bits/unique_lock.h \
+ /usr/include/c++/9/map /usr/include/c++/9/bits/stl_tree.h \
+ /usr/include/c++/9/bits/stl_map.h /usr/include/c++/9/bits/stl_multimap.h \
+ /usr/include/c++/9/mutex /usr/include/c++/9/chrono \
+ /usr/include/c++/9/ratio /usr/include/c++/9/ctime \
+ /usr/include/c++/9/bits/parse_numbers.h \
+ /usr/include/c++/9/bits/std_mutex.h \
+ /usr/include/c++/9/bits/unique_lock.h \
  /usr/include/boost/config/abi_prefix.hpp \
  /usr/include/boost/config/abi_suffix.hpp \
  /usr/include/boost/thread/lock_guard.hpp \
@@ -520,8 +493,8 @@ CMakeFiles/test_planner.dir/src/optimization/optimal_planner.cpp.o: \
  /usr/include/boost/date_time/time_duration.hpp \
  /usr/include/boost/date_time/special_defs.hpp \
  /usr/include/boost/date_time/time_defs.hpp \
- /usr/include/boost/operators.hpp /usr/include/c++/11/iterator \
- /usr/include/c++/11/bits/stream_iterator.h \
+ /usr/include/boost/operators.hpp /usr/include/c++/9/iterator \
+ /usr/include/c++/9/bits/stream_iterator.h \
  /usr/include/boost/date_time/time_resolution_traits.hpp \
  /usr/include/boost/date_time/int_adapter.hpp \
  /usr/include/boost/date_time/gregorian/gregorian_types.hpp \
@@ -531,39 +504,6 @@ CMakeFiles/test_planner.dir/src/optimization/optimal_planner.cpp.o: \
  /usr/include/boost/date_time/gregorian/greg_calendar.hpp \
  /usr/include/boost/date_time/gregorian/greg_weekday.hpp \
  /usr/include/boost/date_time/constrained_value.hpp \
- /usr/include/boost/type_traits/is_base_of.hpp \
- /usr/include/boost/type_traits/is_base_and_derived.hpp \
- /usr/include/boost/type_traits/is_same.hpp \
- /usr/include/boost/type_traits/is_class.hpp \
- /usr/include/boost/date_time/date_defs.hpp \
- /usr/include/boost/date_time/gregorian/greg_day_of_year.hpp \
- /usr/include/boost/date_time/gregorian_calendar.hpp \
- /usr/include/boost/date_time/gregorian_calendar.ipp \
- /usr/include/boost/date_time/gregorian/greg_ymd.hpp \
- /usr/include/boost/date_time/gregorian/greg_day.hpp \
- /usr/include/boost/date_time/gregorian/greg_year.hpp \
- /usr/include/boost/date_time/gregorian/greg_month.hpp \
- /usr/include/boost/date_time/gregorian/greg_duration.hpp \
- /usr/include/boost/date_time/date_duration.hpp \
- /usr/include/boost/date_time/date_duration_types.hpp \
- /usr/include/boost/date_time/gregorian/greg_duration_types.hpp \
- /usr/include/boost/date_time/gregorian/greg_date.hpp \
- /usr/include/boost/date_time/adjust_functors.hpp \
- /usr/include/boost/date_time/wrapping_int.hpp \
- /usr/include/boost/date_time/date_generators.hpp \
- /usr/include/boost/date_time/date_clock_device.hpp \
- /usr/include/boost/date_time/date_iterator.hpp \
- /usr/include/boost/date_time/time_system_split.hpp \
- /usr/include/boost/date_time/time_system_counted.hpp \
- /usr/include/boost/date_time/time.hpp \
- /usr/include/boost/date_time/posix_time/date_duration_operators.hpp \
- /usr/include/boost/date_time/posix_time/posix_time_duration.hpp \
- /usr/include/boost/numeric/conversion/cast.hpp \
- /usr/include/boost/type.hpp \
- /usr/include/boost/numeric/conversion/converter.hpp \
- /usr/include/boost/numeric/conversion/conversion_traits.hpp \
- /usr/include/boost/numeric/conversion/detail/conversion_traits.hpp \
- /usr/include/boost/numeric/conversion/detail/meta.hpp \
  /usr/include/boost/mpl/if.hpp /usr/include/boost/mpl/aux_/value_wknd.hpp \
  /usr/include/boost/mpl/aux_/static_cast.hpp \
  /usr/include/boost/mpl/aux_/config/workaround.hpp \
@@ -643,6 +583,39 @@ CMakeFiles/test_planner.dir/src/optimization/optimal_planner.cpp.o: \
  /usr/include/boost/preprocessor/arithmetic/sub.hpp \
  /usr/include/boost/mpl/aux_/config/overload_resolution.hpp \
  /usr/include/boost/mpl/aux_/lambda_support.hpp \
+ /usr/include/boost/type_traits/is_base_of.hpp \
+ /usr/include/boost/type_traits/is_base_and_derived.hpp \
+ /usr/include/boost/type_traits/is_same.hpp \
+ /usr/include/boost/type_traits/is_class.hpp \
+ /usr/include/boost/date_time/date_defs.hpp \
+ /usr/include/boost/date_time/gregorian/greg_day_of_year.hpp \
+ /usr/include/boost/date_time/gregorian_calendar.hpp \
+ /usr/include/boost/date_time/gregorian_calendar.ipp \
+ /usr/include/boost/date_time/gregorian/greg_ymd.hpp \
+ /usr/include/boost/date_time/gregorian/greg_day.hpp \
+ /usr/include/boost/date_time/gregorian/greg_year.hpp \
+ /usr/include/boost/date_time/gregorian/greg_month.hpp \
+ /usr/include/boost/date_time/gregorian/greg_duration.hpp \
+ /usr/include/boost/date_time/date_duration.hpp \
+ /usr/include/boost/date_time/date_duration_types.hpp \
+ /usr/include/boost/date_time/gregorian/greg_duration_types.hpp \
+ /usr/include/boost/date_time/gregorian/greg_date.hpp \
+ /usr/include/boost/date_time/adjust_functors.hpp \
+ /usr/include/boost/date_time/wrapping_int.hpp \
+ /usr/include/boost/date_time/date_generators.hpp \
+ /usr/include/boost/date_time/date_clock_device.hpp \
+ /usr/include/boost/date_time/date_iterator.hpp \
+ /usr/include/boost/date_time/time_system_split.hpp \
+ /usr/include/boost/date_time/time_system_counted.hpp \
+ /usr/include/boost/date_time/time.hpp \
+ /usr/include/boost/date_time/posix_time/date_duration_operators.hpp \
+ /usr/include/boost/date_time/posix_time/posix_time_duration.hpp \
+ /usr/include/boost/numeric/conversion/cast.hpp \
+ /usr/include/boost/type.hpp \
+ /usr/include/boost/numeric/conversion/converter.hpp \
+ /usr/include/boost/numeric/conversion/conversion_traits.hpp \
+ /usr/include/boost/numeric/conversion/detail/conversion_traits.hpp \
+ /usr/include/boost/numeric/conversion/detail/meta.hpp \
  /usr/include/boost/mpl/eval_if.hpp /usr/include/boost/mpl/equal_to.hpp \
  /usr/include/boost/mpl/aux_/comparison_op.hpp \
  /usr/include/boost/mpl/aux_/numeric_op.hpp \
@@ -711,8 +684,6 @@ CMakeFiles/test_planner.dir/src/optimization/optimal_planner.cpp.o: \
  /usr/include/boost/chrono/config.hpp /usr/include/boost/predef.h \
  /usr/include/boost/predef/language.h \
  /usr/include/boost/predef/language/stdc.h \
- /usr/include/boost/predef/version_number.h \
- /usr/include/boost/predef/make.h /usr/include/boost/predef/detail/test.h \
  /usr/include/boost/predef/language/stdcpp.h \
  /usr/include/boost/predef/language/objc.h \
  /usr/include/boost/predef/language/cuda.h \
@@ -728,7 +699,6 @@ CMakeFiles/test_planner.dir/src/optimization/optimal_planner.cpp.o: \
  /usr/include/boost/predef/architecture/ppc.h \
  /usr/include/boost/predef/architecture/ptx.h \
  /usr/include/boost/predef/architecture/pyramid.h \
- /usr/include/boost/predef/architecture/riscv.h \
  /usr/include/boost/predef/architecture/rs6k.h \
  /usr/include/boost/predef/architecture/sparc.h \
  /usr/include/boost/predef/architecture/superh.h \
@@ -809,21 +779,17 @@ CMakeFiles/test_planner.dir/src/optimization/optimal_planner.cpp.o: \
  /usr/include/boost/predef/os/qnxnto.h \
  /usr/include/boost/predef/os/solaris.h \
  /usr/include/boost/predef/os/unix.h /usr/include/boost/predef/os/vms.h \
- /usr/include/boost/predef/os/windows.h /usr/include/boost/predef/other.h \
+ /usr/include/boost/predef/os/android.h /usr/include/boost/predef/other.h \
  /usr/include/boost/predef/other/endian.h \
- /usr/include/boost/predef/platform/android.h \
  /usr/include/boost/predef/platform.h \
+ /usr/include/boost/predef/platform/android.h \
  /usr/include/boost/predef/platform/cloudabi.h \
  /usr/include/boost/predef/platform/mingw.h \
  /usr/include/boost/predef/platform/mingw32.h \
  /usr/include/boost/predef/platform/mingw64.h \
- /usr/include/boost/predef/platform/windows_uwp.h \
  /usr/include/boost/predef/platform/windows_desktop.h \
- /usr/include/boost/predef/platform/windows_phone.h \
  /usr/include/boost/predef/platform/windows_server.h \
- /usr/include/boost/predef/platform/windows_store.h \
  /usr/include/boost/predef/platform/windows_system.h \
- /usr/include/boost/predef/platform/windows_runtime.h \
  /usr/include/boost/predef/platform/ios.h \
  /usr/include/boost/predef/hardware.h \
  /usr/include/boost/predef/hardware/simd.h \
@@ -880,12 +846,11 @@ CMakeFiles/test_planner.dir/src/optimization/optimal_planner.cpp.o: \
  /usr/include/boost/thread/detail/make_tuple_indices.hpp \
  /usr/include/boost/thread/detail/invoke.hpp \
  /usr/include/boost/thread/detail/is_convertible.hpp \
- /usr/include/c++/11/list /usr/include/c++/11/bits/stl_list.h \
- /usr/include/c++/11/bits/list.tcc /usr/include/boost/core/ref.hpp \
- /usr/include/boost/bind/bind.hpp /usr/include/boost/ref.hpp \
- /usr/include/boost/mem_fn.hpp /usr/include/boost/bind/mem_fn.hpp \
- /usr/include/boost/get_pointer.hpp \
- /usr/include/boost/config/no_tr1/memory.hpp \
+ /usr/include/c++/9/list /usr/include/c++/9/bits/stl_list.h \
+ /usr/include/c++/9/bits/list.tcc /usr/include/boost/core/ref.hpp \
+ /usr/include/boost/bind.hpp /usr/include/boost/bind/bind.hpp \
+ /usr/include/boost/ref.hpp /usr/include/boost/mem_fn.hpp \
+ /usr/include/boost/bind/mem_fn.hpp /usr/include/boost/get_pointer.hpp \
  /usr/include/boost/bind/mem_fn_template.hpp \
  /usr/include/boost/bind/mem_fn_cc.hpp \
  /usr/include/boost/is_placeholder.hpp /usr/include/boost/bind/arg.hpp \
@@ -895,13 +860,12 @@ CMakeFiles/test_planner.dir/src/optimization/optimal_planner.cpp.o: \
  /usr/include/boost/bind/bind_mf2_cc.hpp \
  /usr/include/boost/bind/placeholders.hpp \
  /usr/include/boost/io/ios_state.hpp /usr/include/boost/io_fwd.hpp \
- /usr/include/c++/11/locale \
- /usr/include/c++/11/bits/locale_facets_nonio.h \
- /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h \
- /usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h \
- /usr/include/libintl.h /usr/include/c++/11/bits/codecvt.h \
- /usr/include/c++/11/bits/locale_facets_nonio.tcc \
- /usr/include/c++/11/bits/locale_conv.h \
+ /usr/include/c++/9/locale /usr/include/c++/9/bits/locale_facets_nonio.h \
+ /usr/include/x86_64-linux-gnu/c++/9/bits/time_members.h \
+ /usr/include/x86_64-linux-gnu/c++/9/bits/messages_members.h \
+ /usr/include/libintl.h /usr/include/c++/9/bits/codecvt.h \
+ /usr/include/c++/9/bits/locale_facets_nonio.tcc \
+ /usr/include/c++/9/bits/locale_conv.h \
  /usr/include/boost/functional/hash.hpp \
  /usr/include/boost/container_hash/hash.hpp \
  /usr/include/boost/container_hash/hash_fwd.hpp \
@@ -909,13 +873,13 @@ CMakeFiles/test_planner.dir/src/optimization/optimal_planner.cpp.o: \
  /usr/include/boost/container_hash/detail/float_functions.hpp \
  /usr/include/boost/container_hash/detail/limits.hpp \
  /usr/include/boost/integer/static_log2.hpp \
- /usr/include/boost/integer_fwd.hpp /usr/include/c++/11/typeindex \
- /usr/include/c++/11/optional /usr/include/c++/11/variant \
+ /usr/include/boost/integer_fwd.hpp /usr/include/c++/9/typeindex \
+ /usr/include/c++/9/variant \
  /usr/include/boost/container_hash/extensions.hpp \
- /usr/include/boost/detail/container_fwd.hpp /usr/include/c++/11/deque \
- /usr/include/c++/11/bits/stl_deque.h /usr/include/c++/11/bits/deque.tcc \
- /usr/include/c++/11/set /usr/include/c++/11/bits/stl_set.h \
- /usr/include/c++/11/bits/stl_multiset.h /usr/include/c++/11/bitset \
+ /usr/include/boost/detail/container_fwd.hpp /usr/include/c++/9/deque \
+ /usr/include/c++/9/bits/stl_deque.h /usr/include/c++/9/bits/deque.tcc \
+ /usr/include/c++/9/set /usr/include/c++/9/bits/stl_set.h \
+ /usr/include/c++/9/bits/stl_multiset.h /usr/include/c++/9/bitset \
  /usr/include/boost/thread/detail/thread_interruption.hpp \
  /usr/include/boost/thread/condition_variable.hpp \
  /usr/include/boost/thread/pthread/condition_variable.hpp \
@@ -932,48 +896,32 @@ CMakeFiles/test_planner.dir/src/optimization/optimal_planner.cpp.o: \
  /usr/include/boost/thread/once.hpp \
  /usr/include/boost/thread/pthread/once_atomic.hpp \
  /usr/include/boost/core/no_exceptions_support.hpp \
- /usr/include/boost/atomic.hpp /usr/include/boost/memory_order.hpp \
+ /usr/include/boost/atomic.hpp /usr/include/boost/atomic/atomic.hpp \
  /usr/include/boost/atomic/capabilities.hpp \
  /usr/include/boost/atomic/detail/config.hpp \
- /usr/include/boost/atomic/detail/capabilities.hpp \
  /usr/include/boost/atomic/detail/platform.hpp \
- /usr/include/boost/atomic/detail/futex.hpp \
- /usr/include/x86_64-linux-gnu/sys/syscall.h \
- /usr/include/x86_64-linux-gnu/asm/unistd.h \
- /usr/include/x86_64-linux-gnu/asm/unistd_64.h \
- /usr/include/x86_64-linux-gnu/bits/syscall.h /usr/include/linux/futex.h \
- /usr/include/linux/types.h /usr/include/x86_64-linux-gnu/asm/types.h \
- /usr/include/asm-generic/types.h /usr/include/asm-generic/int-ll64.h \
- /usr/include/x86_64-linux-gnu/asm/bitsperlong.h \
- /usr/include/asm-generic/bitsperlong.h /usr/include/linux/posix_types.h \
- /usr/include/linux/stddef.h \
- /usr/include/x86_64-linux-gnu/asm/posix_types.h \
- /usr/include/x86_64-linux-gnu/asm/posix_types_64.h \
- /usr/include/asm-generic/posix_types.h \
- /usr/include/boost/atomic/detail/intptr.hpp \
- /usr/include/boost/atomic/detail/header.hpp \
- /usr/include/boost/atomic/detail/footer.hpp \
  /usr/include/boost/atomic/detail/int_sizes.hpp \
  /usr/include/boost/atomic/detail/float_sizes.hpp \
- /usr/lib/gcc/x86_64-linux-gnu/11/include/float.h \
+ /usr/lib/gcc/x86_64-linux-gnu/9/include/float.h \
  /usr/include/boost/atomic/detail/caps_gcc_atomic.hpp \
- /usr/include/boost/atomic/detail/caps_arch_gcc_x86.hpp \
- /usr/include/boost/atomic/detail/wait_capabilities.hpp \
- /usr/include/boost/atomic/detail/wait_caps_futex.hpp \
- /usr/include/boost/atomic/atomic.hpp \
- /usr/include/boost/atomic/detail/classify.hpp \
- /usr/include/boost/atomic/detail/type_traits/is_integral.hpp \
- /usr/include/boost/atomic/detail/type_traits/is_function.hpp \
- /usr/include/boost/atomic/detail/type_traits/is_floating_point.hpp \
- /usr/include/boost/atomic/detail/atomic_impl.hpp \
- /usr/include/boost/atomic/detail/storage_traits.hpp \
+ /usr/include/boost/atomic/detail/hwcaps_gcc_x86.hpp \
+ /usr/include/boost/atomic/fences.hpp /usr/include/boost/memory_order.hpp \
+ /usr/include/boost/atomic/detail/operations.hpp \
+ /usr/include/boost/atomic/detail/operations_lockfree.hpp \
+ /usr/include/boost/atomic/detail/ops_gcc_atomic.hpp \
+ /usr/include/boost/atomic/detail/storage_type.hpp \
  /usr/include/boost/atomic/detail/string_ops.hpp \
- /usr/include/boost/atomic/detail/aligned_variable.hpp \
- /usr/include/boost/atomic/detail/type_traits/alignment_of.hpp \
+ /usr/include/boost/atomic/detail/operations_fwd.hpp \
+ /usr/include/boost/atomic/detail/ops_emulated.hpp \
+ /usr/include/boost/atomic/detail/lockpool.hpp \
+ /usr/include/boost/atomic/detail/link.hpp \
+ /usr/include/boost/atomic/atomic_flag.hpp \
+ /usr/include/boost/atomic/detail/atomic_flag.hpp \
+ /usr/include/boost/atomic/detail/atomic_template.hpp \
  /usr/include/boost/atomic/detail/bitwise_cast.hpp \
  /usr/include/boost/atomic/detail/addressof.hpp \
  /usr/include/boost/atomic/detail/type_traits/integral_constant.hpp \
- /usr/include/boost/atomic/detail/integral_conversions.hpp \
+ /usr/include/boost/atomic/detail/integral_extend.hpp \
  /usr/include/boost/atomic/detail/type_traits/is_signed.hpp \
  /usr/include/boost/type_traits/is_signed.hpp \
  /usr/include/boost/atomic/detail/type_traits/make_signed.hpp \
@@ -984,54 +932,26 @@ CMakeFiles/test_planner.dir/src/optimization/optimal_planner.cpp.o: \
  /usr/include/boost/type_traits/add_volatile.hpp \
  /usr/include/boost/atomic/detail/type_traits/make_unsigned.hpp \
  /usr/include/boost/type_traits/make_unsigned.hpp \
- /usr/include/boost/atomic/detail/core_operations.hpp \
- /usr/include/boost/atomic/detail/core_arch_operations.hpp \
- /usr/include/boost/atomic/detail/core_arch_operations_fwd.hpp \
- /usr/include/boost/atomic/detail/core_operations_emulated.hpp \
- /usr/include/boost/atomic/detail/core_operations_emulated_fwd.hpp \
- /usr/include/boost/atomic/detail/lock_pool.hpp \
- /usr/include/boost/atomic/detail/link.hpp \
- /usr/include/boost/atomic/detail/core_arch_ops_gcc_x86.hpp \
- /usr/include/boost/atomic/detail/core_operations_fwd.hpp \
- /usr/include/boost/atomic/detail/core_ops_gcc_atomic.hpp \
- /usr/include/boost/atomic/detail/gcc_atomic_memory_order_utils.hpp \
- /usr/include/boost/atomic/detail/wait_operations.hpp \
- /usr/include/boost/atomic/detail/wait_ops_generic.hpp \
- /usr/include/boost/atomic/detail/pause.hpp \
- /usr/include/boost/atomic/detail/wait_operations_fwd.hpp \
- /usr/include/boost/atomic/detail/wait_ops_emulated.hpp \
- /usr/include/boost/atomic/detail/wait_ops_futex.hpp \
- /usr/include/boost/atomic/detail/extra_operations.hpp \
- /usr/include/boost/atomic/detail/extra_ops_generic.hpp \
  /usr/include/boost/atomic/detail/extra_operations_fwd.hpp \
- /usr/include/boost/atomic/detail/extra_ops_emulated.hpp \
- /usr/include/boost/atomic/detail/extra_ops_gcc_x86.hpp \
- /usr/include/boost/atomic/detail/memory_order_utils.hpp \
+ /usr/include/boost/atomic/detail/type_traits/is_integral.hpp \
+ /usr/include/boost/atomic/detail/type_traits/is_function.hpp \
+ /usr/include/boost/atomic/detail/type_traits/is_floating_point.hpp \
  /usr/include/boost/atomic/detail/type_traits/is_trivially_default_constructible.hpp \
  /usr/include/boost/atomic/detail/type_traits/conditional.hpp \
  /usr/include/boost/atomic/detail/bitwise_fp_cast.hpp \
+ /usr/include/boost/atomic/detail/fp_operations_fwd.hpp \
+ /usr/include/boost/atomic/detail/extra_fp_operations_fwd.hpp \
+ /usr/include/boost/atomic/detail/extra_operations.hpp \
+ /usr/include/boost/atomic/detail/extra_ops_generic.hpp \
+ /usr/include/boost/atomic/detail/extra_ops_emulated.hpp \
+ /usr/include/boost/atomic/detail/extra_ops_gcc_x86.hpp \
  /usr/include/boost/atomic/detail/fp_operations.hpp \
  /usr/include/boost/atomic/detail/fp_ops_generic.hpp \
- /usr/include/boost/atomic/detail/fp_operations_fwd.hpp \
  /usr/include/boost/atomic/detail/fp_ops_emulated.hpp \
  /usr/include/boost/atomic/detail/extra_fp_operations.hpp \
  /usr/include/boost/atomic/detail/extra_fp_ops_generic.hpp \
- /usr/include/boost/atomic/detail/extra_fp_operations_fwd.hpp \
  /usr/include/boost/atomic/detail/type_traits/is_iec559.hpp \
  /usr/include/boost/atomic/detail/extra_fp_ops_emulated.hpp \
- /usr/include/boost/atomic/detail/type_traits/is_trivially_copyable.hpp \
- /usr/include/boost/atomic/atomic_ref.hpp \
- /usr/include/boost/atomic/detail/atomic_ref_impl.hpp \
- /usr/include/boost/atomic/atomic_flag.hpp \
- /usr/include/boost/atomic/detail/atomic_flag_impl.hpp \
- /usr/include/boost/atomic/ipc_atomic.hpp \
- /usr/include/boost/atomic/ipc_atomic_ref.hpp \
- /usr/include/boost/atomic/ipc_atomic_flag.hpp \
- /usr/include/boost/atomic/fences.hpp \
- /usr/include/boost/atomic/detail/fence_operations.hpp \
- /usr/include/boost/atomic/detail/fence_ops_gcc_atomic.hpp \
- /usr/include/boost/atomic/detail/fence_arch_operations.hpp \
- /usr/include/boost/atomic/detail/fence_arch_ops_gcc_x86.hpp \
  /usr/include/boost/thread/recursive_mutex.hpp \
  /usr/include/boost/thread/pthread/recursive_mutex.hpp \
  /usr/include/boost/thread/tss.hpp /usr/include/boost/thread/locks.hpp \
@@ -1082,9 +1002,9 @@ CMakeFiles/test_planner.dir/src/optimization/optimal_planner.cpp.o: \
  /usr/include/boost/exception/detail/object_hex_dump.hpp \
  /usr/include/boost/exception/detail/type_info.hpp \
  /usr/include/boost/core/typeinfo.hpp \
- /usr/include/boost/core/demangle.hpp /usr/include/c++/11/cxxabi.h \
- /usr/include/x86_64-linux-gnu/c++/11/bits/cxxabi_tweaks.h \
- /usr/include/c++/11/iomanip /usr/include/c++/11/bits/quoted_string.h \
+ /usr/include/boost/core/demangle.hpp /usr/include/c++/9/cxxabi.h \
+ /usr/include/x86_64-linux-gnu/c++/9/bits/cxxabi_tweaks.h \
+ /usr/include/c++/9/iomanip /usr/include/c++/9/bits/quoted_string.h \
  /usr/include/boost/exception/detail/error_info_impl.hpp \
  /usr/include/boost/type_traits/is_nothrow_move_constructible.hpp \
  /usr/include/boost/exception/detail/shared_ptr.hpp \
@@ -1202,10 +1122,10 @@ CMakeFiles/test_planner.dir/src/optimization/optimal_planner.cpp.o: \
  /usr/include/boost/type_traits/is_fundamental.hpp \
  /usr/include/boost/thread/detail/atomic_undef_macros.hpp \
  /usr/include/boost/thread/detail/atomic_redef_macros.hpp \
- /home/admin11/test_clustering/include/robot_footprint_model.h \
- /home/admin11/test_clustering/include/pose_se2.h \
+ /home/qdt/isolated_teb/test_clustering/include/robot_footprint_model.h \
+ /home/qdt/isolated_teb/test_clustering/include/pose_se2.h \
  /usr/local/include/g2o/stuff/misc.h /usr/include/eigen3/Eigen/Core \
- /home/admin11/test_clustering/include/misc.h \
+ /home/qdt/isolated_teb/test_clustering/include/misc.h \
  /usr/include/boost/utility.hpp \
  /usr/include/boost/utility/base_from_member.hpp \
  /usr/include/boost/utility/binary.hpp \
@@ -1224,11 +1144,9 @@ CMakeFiles/test_planner.dir/src/optimization/optimal_planner.cpp.o: \
  /usr/include/boost/core/noncopyable.hpp \
  /usr/include/boost/type_traits.hpp \
  /usr/include/boost/type_traits/aligned_storage.hpp \
- /usr/include/boost/type_traits/conjunction.hpp \
  /usr/include/boost/type_traits/copy_cv.hpp \
  /usr/include/boost/type_traits/copy_cv_ref.hpp \
  /usr/include/boost/type_traits/copy_reference.hpp \
- /usr/include/boost/type_traits/disjunction.hpp \
  /usr/include/boost/type_traits/floating_point_promotion.hpp \
  /usr/include/boost/type_traits/has_bit_and.hpp \
  /usr/include/boost/type_traits/has_bit_and_assign.hpp \
@@ -1285,18 +1203,14 @@ CMakeFiles/test_planner.dir/src/optimization/optimal_planner.cpp.o: \
  /usr/include/boost/type_traits/is_nothrow_swappable.hpp \
  /usr/include/boost/type_traits/is_object.hpp \
  /usr/include/boost/type_traits/is_polymorphic.hpp \
- /usr/include/boost/type_traits/is_scoped_enum.hpp \
- /usr/include/boost/type_traits/negation.hpp \
  /usr/include/boost/type_traits/is_stateless.hpp \
- /usr/include/boost/type_traits/is_trivially_copyable.hpp \
- /usr/include/boost/type_traits/is_unscoped_enum.hpp \
  /usr/include/boost/type_traits/is_virtual_base_of.hpp \
  /usr/include/boost/type_traits/rank.hpp \
  /usr/include/boost/type_traits/remove_all_extents.hpp \
  /usr/include/boost/type_traits/remove_cv_ref.hpp \
  /usr/include/boost/type_traits/integral_promotion.hpp \
  /usr/include/boost/type_traits/promote.hpp \
- /home/admin11/test_clustering/include/ultis.h \
+ /home/qdt/isolated_teb/test_clustering/include/ultis.h \
  /usr/include/eigen3/Eigen/Dense /usr/include/eigen3/Eigen/LU \
  /usr/include/eigen3/Eigen/src/misc/Kernel.h \
  /usr/include/eigen3/Eigen/src/misc/Image.h \
@@ -1304,7 +1218,7 @@ CMakeFiles/test_planner.dir/src/optimization/optimal_planner.cpp.o: \
  /usr/include/eigen3/Eigen/src/LU/PartialPivLU.h \
  /usr/include/eigen3/Eigen/src/LU/Determinant.h \
  /usr/include/eigen3/Eigen/src/LU/InverseImpl.h \
- /usr/include/eigen3/Eigen/src/LU/arch/InverseSize4.h \
+ /usr/include/eigen3/Eigen/src/LU/arch/Inverse_SSE.h \
  /usr/include/eigen3/Eigen/Cholesky /usr/include/eigen3/Eigen/Jacobi \
  /usr/include/eigen3/Eigen/src/Jacobi/Jacobi.h \
  /usr/include/eigen3/Eigen/src/Cholesky/LLT.h \
@@ -1338,7 +1252,7 @@ CMakeFiles/test_planner.dir/src/optimization/optimal_planner.cpp.o: \
  /usr/include/eigen3/Eigen/src/Geometry/ParametrizedLine.h \
  /usr/include/eigen3/Eigen/src/Geometry/AlignedBox.h \
  /usr/include/eigen3/Eigen/src/Geometry/Umeyama.h \
- /usr/include/eigen3/Eigen/src/Geometry/arch/Geometry_SIMD.h \
+ /usr/include/eigen3/Eigen/src/Geometry/arch/Geometry_SSE.h \
  /usr/include/eigen3/Eigen/Eigenvalues \
  /usr/include/eigen3/Eigen/src/Eigenvalues/Tridiagonalization.h \
  /usr/include/eigen3/Eigen/src/Eigenvalues/RealSchur.h \
@@ -1356,57 +1270,57 @@ CMakeFiles/test_planner.dir/src/optimization/optimal_planner.cpp.o: \
  /usr/include/eigen3/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h \
  /usr/include/eigen3/Eigen/src/Eigenvalues/./RealQZ.h \
  /usr/include/eigen3/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h \
- /usr/include/opencv4/opencv2/core/core.hpp \
- /usr/include/opencv4/opencv2/core.hpp \
- /usr/include/opencv4/opencv2/core/cvdef.h \
- /usr/include/opencv4/opencv2/core/version.hpp \
- /usr/include/opencv4/opencv2/core/hal/interface.h \
- /usr/include/opencv4/opencv2/core/cv_cpu_dispatch.h \
- /usr/include/opencv4/opencv2/core/base.hpp \
- /usr/include/opencv4/opencv2/opencv_modules.hpp \
- /usr/include/opencv4/opencv2/core/cvstd.hpp \
- /usr/include/opencv4/opencv2/core/cvstd_wrapper.hpp \
- /usr/include/opencv4/opencv2/core/neon_utils.hpp \
- /usr/include/opencv4/opencv2/core/vsx_utils.hpp \
- /usr/include/opencv4/opencv2/core/check.hpp \
- /usr/include/opencv4/opencv2/core/traits.hpp \
- /usr/include/opencv4/opencv2/core/matx.hpp \
- /usr/include/opencv4/opencv2/core/saturate.hpp \
- /usr/include/opencv4/opencv2/core/fast_math.hpp \
- /usr/include/opencv4/opencv2/core/types.hpp /usr/include/c++/11/cfloat \
- /usr/include/opencv4/opencv2/core/mat.hpp \
- /usr/include/opencv4/opencv2/core/bufferpool.hpp \
- /usr/include/opencv4/opencv2/core/mat.inl.hpp \
- /usr/include/opencv4/opencv2/core/persistence.hpp \
- /usr/include/opencv4/opencv2/core/operations.hpp \
- /usr/include/opencv4/opencv2/core/cvstd.inl.hpp \
- /usr/include/opencv4/opencv2/core/utility.hpp \
- /usr/include/opencv4/opencv2/core/optim.hpp \
- /usr/include/opencv4/opencv2/core/ovx.hpp \
- /usr/include/opencv4/opencv2/core/cvdef.h \
- /usr/include/opencv4/opencv2/highgui/highgui.hpp \
- /usr/include/opencv4/opencv2/highgui.hpp \
- /usr/include/opencv4/opencv2/imgcodecs.hpp \
- /usr/include/opencv4/opencv2/videoio.hpp \
- /usr/include/opencv4/opencv2/imgproc.hpp \
- /usr/include/opencv4/opencv2/imgproc/segmentation.hpp \
- /usr/include/c++/11/random /usr/include/c++/11/bits/random.h \
- /usr/include/x86_64-linux-gnu/c++/11/bits/opt_random.h \
- /usr/include/c++/11/bits/random.tcc /usr/include/c++/11/numeric \
- /usr/include/c++/11/bits/stl_numeric.h \
- /usr/include/c++/11/pstl/glue_numeric_defs.h \
- /usr/include/c++/11/iostream \
- /home/admin11/test_clustering/include/obstacles.h \
+ /usr/local/include/opencv4/opencv2/core/core.hpp \
+ /usr/local/include/opencv4/opencv2/core.hpp \
+ /usr/local/include/opencv4/opencv2/core/cvdef.h \
+ /usr/local/include/opencv4/opencv2/core/version.hpp \
+ /usr/local/include/opencv4/opencv2/core/hal/interface.h \
+ /usr/local/include/opencv4/opencv2/core/cv_cpu_dispatch.h \
+ /usr/local/include/opencv4/opencv2/core/base.hpp \
+ /usr/local/include/opencv4/opencv2/opencv_modules.hpp \
+ /usr/local/include/opencv4/opencv2/core/cvstd.hpp \
+ /usr/local/include/opencv4/opencv2/core/cvstd_wrapper.hpp \
+ /usr/local/include/opencv4/opencv2/core/neon_utils.hpp \
+ /usr/local/include/opencv4/opencv2/core/vsx_utils.hpp \
+ /usr/local/include/opencv4/opencv2/core/check.hpp \
+ /usr/local/include/opencv4/opencv2/core/traits.hpp \
+ /usr/local/include/opencv4/opencv2/core/matx.hpp \
+ /usr/local/include/opencv4/opencv2/core/saturate.hpp \
+ /usr/local/include/opencv4/opencv2/core/fast_math.hpp \
+ /usr/local/include/opencv4/opencv2/core/types.hpp \
+ /usr/include/c++/9/cfloat \
+ /usr/local/include/opencv4/opencv2/core/mat.hpp \
+ /usr/local/include/opencv4/opencv2/core/bufferpool.hpp \
+ /usr/local/include/opencv4/opencv2/core/mat.inl.hpp \
+ /usr/local/include/opencv4/opencv2/core/persistence.hpp \
+ /usr/local/include/opencv4/opencv2/core/operations.hpp \
+ /usr/local/include/opencv4/opencv2/core/cvstd.inl.hpp \
+ /usr/local/include/opencv4/opencv2/core/utility.hpp \
+ /usr/local/include/opencv4/opencv2/core/optim.hpp \
+ /usr/local/include/opencv4/opencv2/core/ovx.hpp \
+ /usr/local/include/opencv4/opencv2/core/cvdef.h \
+ /usr/local/include/opencv4/opencv2/highgui/highgui.hpp \
+ /usr/local/include/opencv4/opencv2/highgui.hpp \
+ /usr/local/include/opencv4/opencv2/imgcodecs.hpp \
+ /usr/local/include/opencv4/opencv2/videoio.hpp \
+ /usr/local/include/opencv4/opencv2/imgproc.hpp \
+ /usr/local/include/opencv4/opencv2/imgproc/segmentation.hpp \
+ /usr/include/c++/9/random /usr/include/c++/9/bits/random.h \
+ /usr/include/x86_64-linux-gnu/c++/9/bits/opt_random.h \
+ /usr/include/c++/9/bits/random.tcc /usr/include/c++/9/numeric \
+ /usr/include/c++/9/bits/stl_numeric.h \
+ /usr/include/c++/9/pstl/glue_numeric_defs.h /usr/include/c++/9/iostream \
+ /home/qdt/isolated_teb/test_clustering/include/obstacles.h \
  /usr/include/eigen3/Eigen/Geometry /usr/include/boost/pointer_cast.hpp \
- /home/admin11/test_clustering/include/distance_calculations.h \
- /home/admin11/test_clustering/include/misc.h \
- /home/admin11/test_clustering/include/homotopy_class_planner/timed_elastic_band.h \
- /home/admin11/test_clustering/include/obstacles.h \
- /home/admin11/test_clustering/include/g2o_types/vertex_pose.h \
+ /home/qdt/isolated_teb/test_clustering/include/distance_calculations.h \
+ /home/qdt/isolated_teb/test_clustering/include/misc.h \
+ /home/qdt/isolated_teb/test_clustering/include/homotopy_class_planner/timed_elastic_band.h \
+ /home/qdt/isolated_teb/test_clustering/include/obstacles.h \
+ /home/qdt/isolated_teb/test_clustering/include/g2o_types/vertex_pose.h \
  /usr/local/include/g2o/config.h \
  /usr/local/include/g2o/core/base_vertex.h \
- /usr/include/eigen3/Eigen/Cholesky /usr/include/c++/11/stack \
- /usr/include/c++/11/bits/stl_stack.h \
+ /usr/include/eigen3/Eigen/Cholesky /usr/include/c++/9/stack \
+ /usr/include/c++/9/bits/stl_stack.h \
  /usr/local/include/g2o/core/optimizable_graph.h \
  /usr/local/include/g2o/stuff/macros.h \
  /usr/local/include/g2o/core/g2o_core_api.h \
@@ -1422,19 +1336,19 @@ CMakeFiles/test_planner.dir/src/optimization/optimal_planner.cpp.o: \
  /usr/local/include/g2o/stuff/property.h \
  /usr/local/include/g2o/stuff/g2o_stuff_api.h \
  /usr/local/include/g2o/stuff/string_tools.h \
- /home/admin11/test_clustering/include/pose_se2.h \
- /home/admin11/test_clustering/include/g2o_types/vertex_timediff.h \
- /home/admin11/test_clustering/include/homotopy_class_planner/timed_elastic_band.hpp \
- /home/admin11/test_clustering/include/homotopy_class_planner/timed_elastic_band.h \
- /home/admin11/test_clustering/include/homotopy_class_planner/planner_interface.h \
- /home/admin11/test_clustering/include/robot_footprint_model.h \
+ /home/qdt/isolated_teb/test_clustering/include/pose_se2.h \
+ /home/qdt/isolated_teb/test_clustering/include/g2o_types/vertex_timediff.h \
+ /home/qdt/isolated_teb/test_clustering/include/homotopy_class_planner/timed_elastic_band.hpp \
+ /home/qdt/isolated_teb/test_clustering/include/homotopy_class_planner/timed_elastic_band.h \
+ /home/qdt/isolated_teb/test_clustering/include/homotopy_class_planner/planner_interface.h \
+ /home/qdt/isolated_teb/test_clustering/include/robot_footprint_model.h \
  /usr/local/include/g2o/core/sparse_optimizer.h \
  /usr/local/include/g2o/core/batch_stats.h \
  /usr/local/include/g2o/core/sparse_block_matrix.h \
- /usr/include/c++/11/fstream \
- /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
- /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
- /usr/include/c++/11/bits/fstream.tcc \
+ /usr/include/c++/9/fstream \
+ /usr/include/x86_64-linux-gnu/c++/9/bits/basic_file.h \
+ /usr/include/x86_64-linux-gnu/c++/9/bits/c++io.h \
+ /usr/include/c++/9/bits/fstream.tcc \
  /usr/local/include/g2o/stuff/sparse_helper.h \
  /usr/local/include/g2o/core/matrix_operations.h \
  /usr/local/include/g2o/core/matrix_structure.h \
@@ -1449,46 +1363,67 @@ CMakeFiles/test_planner.dir/src/optimization/optimal_planner.cpp.o: \
  /usr/local/include/g2o/core/block_solver.hpp \
  /usr/include/eigen3/Eigen/LU /usr/local/include/g2o/stuff/logger.h \
  /usr/local/include/g2o/stuff/g2o_stuff_api.h \
- /usr/include/spdlog/spdlog.h /usr/include/spdlog/common.h \
- /usr/include/spdlog/tweakme.h /usr/include/spdlog/details/null_mutex.h \
- /usr/include/spdlog/fmt/fmt.h /usr/include/fmt/core.h \
- /usr/include/fmt/format.h /usr/include/fmt/core.h \
- /usr/include/spdlog/common-inl.h /usr/include/spdlog/details/registry.h \
- /usr/include/spdlog/details/registry-inl.h \
- /usr/include/spdlog/details/periodic_worker.h \
- /usr/include/c++/11/condition_variable /usr/include/c++/11/thread \
- /usr/include/c++/11/bits/std_thread.h \
- /usr/include/c++/11/bits/this_thread_sleep.h \
- /usr/include/spdlog/details/periodic_worker-inl.h \
- /usr/include/spdlog/logger.h /usr/include/spdlog/details/log_msg.h \
- /usr/include/spdlog/details/log_msg-inl.h \
- /usr/include/spdlog/details/os.h /usr/include/spdlog/details/os-inl.h \
+ /usr/local/include/spdlog/spdlog.h /usr/local/include/spdlog/common.h \
+ /usr/local/include/spdlog/tweakme.h \
+ /usr/local/include/spdlog/details/null_mutex.h \
+ /usr/local/include/spdlog/fmt/fmt.h \
+ /usr/local/include/spdlog/fmt/bundled/core.h \
+ /usr/local/include/spdlog/fmt/bundled/format.h \
+ /usr/local/include/spdlog/fmt/bundled/core.h \
+ /usr/local/include/spdlog/fmt/bundled/format-inl.h \
+ /usr/include/c++/9/cstdarg \
+ /usr/local/include/spdlog/fmt/bundled/format.h \
+ /usr/local/include/spdlog/common-inl.h \
+ /usr/local/include/spdlog/details/registry.h \
+ /usr/local/include/spdlog/details/registry-inl.h \
+ /usr/local/include/spdlog/details/periodic_worker.h \
+ /usr/include/c++/9/condition_variable /usr/include/c++/9/thread \
+ /usr/local/include/spdlog/details/periodic_worker-inl.h \
+ /usr/local/include/spdlog/logger.h \
+ /usr/local/include/spdlog/details/log_msg.h \
+ /usr/local/include/spdlog/details/log_msg-inl.h \
+ /usr/local/include/spdlog/details/os.h \
+ /usr/local/include/spdlog/details/os-inl.h \
  /usr/include/x86_64-linux-gnu/sys/stat.h \
  /usr/include/x86_64-linux-gnu/bits/stat.h \
- /usr/include/x86_64-linux-gnu/bits/struct_stat.h \
  /usr/include/x86_64-linux-gnu/bits/statx.h /usr/include/linux/stat.h \
+ /usr/include/linux/types.h /usr/include/x86_64-linux-gnu/asm/types.h \
+ /usr/include/asm-generic/types.h /usr/include/asm-generic/int-ll64.h \
+ /usr/include/x86_64-linux-gnu/asm/bitsperlong.h \
+ /usr/include/asm-generic/bitsperlong.h /usr/include/linux/posix_types.h \
+ /usr/include/linux/stddef.h \
+ /usr/include/x86_64-linux-gnu/asm/posix_types.h \
+ /usr/include/x86_64-linux-gnu/asm/posix_types_64.h \
+ /usr/include/asm-generic/posix_types.h \
  /usr/include/x86_64-linux-gnu/bits/statx-generic.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_statx_timestamp.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_statx.h \
  /usr/include/fcntl.h /usr/include/x86_64-linux-gnu/bits/fcntl.h \
  /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
- /usr/include/linux/falloc.h /usr/include/spdlog/details/backtracer.h \
- /usr/include/spdlog/details/log_msg_buffer.h \
- /usr/include/spdlog/details/log_msg_buffer-inl.h \
- /usr/include/spdlog/details/circular_q.h \
- /usr/include/spdlog/details/backtracer-inl.h \
- /usr/include/spdlog/logger-inl.h /usr/include/spdlog/sinks/sink.h \
- /usr/include/spdlog/formatter.h /usr/include/spdlog/sinks/sink-inl.h \
- /usr/include/spdlog/pattern_formatter.h \
- /usr/include/spdlog/pattern_formatter-inl.h \
- /usr/include/spdlog/details/fmt_helper.h \
- /usr/include/spdlog/sinks/ansicolor_sink.h \
- /usr/include/spdlog/details/console_globals.h \
- /usr/include/spdlog/sinks/ansicolor_sink-inl.h \
- /usr/include/spdlog/version.h \
- /usr/include/spdlog/details/synchronous_factory.h \
- /usr/include/spdlog/spdlog-inl.h /usr/local/include/g2o/stuff/timeutil.h \
+ /usr/include/linux/falloc.h /usr/include/x86_64-linux-gnu/sys/syscall.h \
+ /usr/include/x86_64-linux-gnu/asm/unistd.h \
+ /usr/include/x86_64-linux-gnu/asm/unistd_64.h \
+ /usr/include/x86_64-linux-gnu/bits/syscall.h \
+ /usr/local/include/spdlog/details/backtracer.h \
+ /usr/local/include/spdlog/details/log_msg_buffer.h \
+ /usr/local/include/spdlog/details/log_msg_buffer-inl.h \
+ /usr/local/include/spdlog/details/circular_q.h \
+ /usr/local/include/spdlog/details/backtracer-inl.h \
+ /usr/local/include/spdlog/logger-inl.h \
+ /usr/local/include/spdlog/sinks/sink.h \
+ /usr/local/include/spdlog/formatter.h \
+ /usr/local/include/spdlog/sinks/sink-inl.h \
+ /usr/local/include/spdlog/pattern_formatter.h \
+ /usr/local/include/spdlog/pattern_formatter-inl.h \
+ /usr/local/include/spdlog/details/fmt_helper.h \
+ /usr/local/include/spdlog/sinks/ansicolor_sink.h \
+ /usr/local/include/spdlog/details/console_globals.h \
+ /usr/local/include/spdlog/sinks/ansicolor_sink-inl.h \
+ /usr/local/include/spdlog/version.h \
+ /usr/local/include/spdlog/details/synchronous_factory.h \
+ /usr/local/include/spdlog/spdlog-inl.h \
+ /usr/local/include/g2o/stuff/timeutil.h \
  /usr/local/include/g2o/core/sparse_optimizer.h \
  /usr/local/include/g2o/core/factory.h \
  /usr/local/include/g2o/core/creators.h \
@@ -1503,10 +1438,10 @@ CMakeFiles/test_planner.dir/src/optimization/optimal_planner.cpp.o: \
  /usr/local/include/g2o/solvers/csparse/g2o_csparse_api.h \
  /usr/local/include/g2o/solvers/cholmod/linear_solver_cholmod.h \
  /usr/local/include/g2o/solvers/cholmod/cholmod_wrapper.h \
- /home/admin11/test_clustering/include/g2o_types/edge_velocity.h \
- /home/admin11/test_clustering/include/g2o_types/vertex_pose.h \
- /home/admin11/test_clustering/include/g2o_types/vertex_timediff.h \
- /home/admin11/test_clustering/include/g2o_types/base_teb_edges.h \
+ /home/qdt/isolated_teb/test_clustering/include/g2o_types/edge_velocity.h \
+ /home/qdt/isolated_teb/test_clustering/include/g2o_types/vertex_pose.h \
+ /home/qdt/isolated_teb/test_clustering/include/g2o_types/vertex_timediff.h \
+ /home/qdt/isolated_teb/test_clustering/include/g2o_types/base_teb_edges.h \
  /usr/local/include/g2o/core/base_binary_edge.h \
  /usr/local/include/g2o/core/base_fixed_sized_edge.h \
  /usr/local/include/g2o/core/base_edge.h \
@@ -1519,13 +1454,13 @@ CMakeFiles/test_planner.dir/src/optimization/optimal_planner.cpp.o: \
  /usr/local/include/g2o/core/base_multi_edge.h \
  /usr/local/include/g2o/core/base_variable_sized_edge.h \
  /usr/local/include/g2o/core/base_variable_sized_edge.hpp \
- /home/admin11/test_clustering/include/g2o_types/penalties.h \
- /home/admin11/test_clustering/include/g2o_types/edge_velocity_obstacle_ratio.h \
- /home/admin11/test_clustering/include/g2o_types/edge_acceleration.h \
- /home/admin11/test_clustering/include/g2o_types/edge_kinematics.h \
- /home/admin11/test_clustering/include/g2o_types/edge_time_optimal.h \
- /home/admin11/test_clustering/include/g2o_types/edge_shortest_path.h \
- /home/admin11/test_clustering/include/g2o_types/edge_obstacle.h \
- /home/admin11/test_clustering/include/g2o_types/edge_dynamic_obstacle.h \
- /home/admin11/test_clustering/include/g2o_types/edge_via_point.h \
- /home/admin11/test_clustering/include/g2o_types/edge_prefer_rotdir.h
+ /home/qdt/isolated_teb/test_clustering/include/g2o_types/penalties.h \
+ /home/qdt/isolated_teb/test_clustering/include/g2o_types/edge_velocity_obstacle_ratio.h \
+ /home/qdt/isolated_teb/test_clustering/include/g2o_types/edge_acceleration.h \
+ /home/qdt/isolated_teb/test_clustering/include/g2o_types/edge_kinematics.h \
+ /home/qdt/isolated_teb/test_clustering/include/g2o_types/edge_time_optimal.h \
+ /home/qdt/isolated_teb/test_clustering/include/g2o_types/edge_shortest_path.h \
+ /home/qdt/isolated_teb/test_clustering/include/g2o_types/edge_obstacle.h \
+ /home/qdt/isolated_teb/test_clustering/include/g2o_types/edge_dynamic_obstacle.h \
+ /home/qdt/isolated_teb/test_clustering/include/g2o_types/edge_via_point.h \
+ /home/qdt/isolated_teb/test_clustering/include/g2o_types/edge_prefer_rotdir.h

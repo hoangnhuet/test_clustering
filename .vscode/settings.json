@@ -67,6 +67,17 @@
         "typeindex": "cpp",
         "typeinfo": "cpp",
         "csignal": "cpp",
-        "variant": "cpp"
+        "variant": "cpp",
+        "core": "cpp",
+        "mixinvector": "cpp",
+        "fast_back_stack": "cpp",
+        "containers": "cpp",
+        "geometry": "cpp",
+        "ranges": "cpp",
+        "bufferobject": "cpp",
+        "image": "cpp",
+        "texture": "cpp",
+        "vertexarraystate": "cpp",
+        "buffered_value": "cpp"
     }
 }

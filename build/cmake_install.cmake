@@ -1,4 +1,4 @@
-# Install script for directory: /home/admin11/test_clustering
+# Install script for directory: /home/qdt/isolated_teb/test_clustering
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/admin11/test_clustering/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/qdt/isolated_teb/test_clustering/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

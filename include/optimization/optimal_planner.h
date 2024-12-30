@@ -485,7 +485,7 @@ public:
    * @param dt actual time difference between k and k+1 (must be >0 !!!)
    * @param[out] velocity translational and rotational velocity [m/s, rad/s]
   */
-  inline void extractVelocity(const PoseSE2& pose1, const PoseSE2& pose2, double dt, Twist velocity) const;
+  inline void extractVelocity(const PoseSE2& pose1, const PoseSE2& pose2, double dt, Twist &velocity) const;
   /**
    * @brief Get the best trajectory
    * @param trajectory the best trajectory
