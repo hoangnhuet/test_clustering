@@ -128,7 +128,7 @@ public:
    */
   double& TimeDiff(int index)
   {
-    assert(index<sizeTimeDiffs()); 
+    assert(index<=sizeTimeDiffs()); 
     return timediff_vec_.at(index)->dt();
   }
   
@@ -139,7 +139,7 @@ public:
    */
   const double& TimeDiff(int index) const
   {
-    assert(index<sizeTimeDiffs()); 
+    assert(index<=sizeTimeDiffs()); 
     return timediff_vec_.at(index)->dt();
   }
   
@@ -647,4 +647,4 @@ public:
 #include "timed_elastic_band.hpp"
 
 
-#endif /* TIMED_ELASTIC_BAND_H_ */
+#endif /* TIMED_ELASTIC_BAND_H1_ */

@@ -20,10 +20,10 @@ int main()
     my_obstacles.push_back(ObstaclePtr(new PointObstacle(3.0, 1.0)));
     my_obstacles.push_back(ObstaclePtr(new PointObstacle(3.0, 3.0)));
     // my_obstacles.push_back(ObstaclePtr(new LineObstacle(Eigen::Vector2d(0.0,0.0), Eigen::Vector2d(5.0, 5.0))));
-    my_obstacles.push_back(ObstaclePtr(new CircularObstacle(7.0, 7.0, 1.0)));
-    my_obstacles.push_back(ObstaclePtr(new CircularObstacle(2.0, 3.0, 1.0)));
+    my_obstacles.push_back(ObstaclePtr(new CircularObstacle(7.0, 7.0, 0.5)));
+    my_obstacles.push_back(ObstaclePtr(new CircularObstacle(2.0, 3.0, 0.5)));
     HomotopyClassPlanner hcp(cfg, &my_obstacles, nullptr);
-    PoseSE2 start(0,0,0), goal(10,10,0);
+    PoseSE2 start(0,0,0), goal(15,15,0);
     Twist start_vel{0.0, 0.5};
     hcp.plan(start, goal, &start_vel, false);
 
@@ -64,6 +64,32 @@ int main()
             cv::circle(map, pc, radius*scale, cv::Scalar(0,0,0), 2);
         }
 
+        // if (obst->getObstacleType() == Obstacle::Type::PILL)
+        // {
+        //     // visualize pill obstacle
+        //     Eigen::Vector2d start = boost::static_pointer_cast<PillObstacle>(obst)->start();
+        //     Eigen::Vector2d end = boost::static_pointer_cast<PillObstacle>(obst)->end();
+        //     double radius = boost::static_pointer_cast<PillObstacle>(obst)->radius();
+        //     cv::Point ps = scalePoint(start.x(), start.y(), scale, offset_x, offset_y);
+        //     cv::Point pe = scalePoint(end.x(), end.y(), scale, offset_x, offset_y);
+        //     cv::line(map, ps, pe, cv::Scalar(0,0,0), 2);
+        //     cv::circle(map, ps, radius*scale, cv::Scalar(0,0,0), 2);
+        //     cv::circle(map, pe, radius*scale, cv::Scalar(0,0,0), 2);
+        // }
+
+        if (obst->getObstacleType() == Obstacle::Type::POLYGON)
+        {
+            // visualize polygon obstacle
+            const Point2dContainer& vertices = boost::static_pointer_cast<PolygonObstacle>(obst)->vertices();
+            for (int i=0; i<vertices.size()-1; ++i)
+            {
+                cv::Point ps = scalePoint(vertices[i].x(), vertices[i].y(), scale, offset_x, offset_y);
+                cv::Point pe = scalePoint(vertices[i+1].x(), vertices[i+1].y(), scale, offset_x, offset_y);
+                cv::line(map, ps, pe, cv::Scalar(0,0,0), 2);
+            }
+            cv::line(map, scalePoint(vertices.back().x(), vertices.back().y(), scale, offset_x, offset_y), scalePoint(vertices.front().x(), vertices.front().y(), scale, offset_x, offset_y), cv::Scalar(0,0,0), 2);
+        }
+
 
     }
 
@@ -78,6 +104,7 @@ int main()
     int idx=0;
     for (auto& planner : all_tebs)
     {
+        std::cout<<"Num TEBS: "<<all_tebs.size()<<std::endl;
         auto &teb = planner->teb();
         std::vector<cv::Point> path_points;
         path_points.reserve(teb.sizePoses());
@@ -88,10 +115,10 @@ int main()
             double y = pose.y();
             path_points.push_back(scalePoint(x, y, scale, offset_x, offset_y));
             // extract velocity
+            // std::cout<<"dt: "<<teb.TimeDiff(p)<<std::endl;
+            std::cout<<"Pose:"<<x<<" "<<y<<std::endl;
             hcp.getVelocityCommand(velocity, p);
             std::cout<<"Velocity: "<<velocity.linear<<" "<<velocity.angular<<std::endl;
-            std::cout<<"Pose:"<<x<<" "<<y<<std::endl;
-            std::cout<<"dt: "<<teb.TimeDiff(p)<<std::endl;
         }
 
         cv::Scalar color( (50*idx) % 255, (100*idx)%255, (150*idx)%255 );

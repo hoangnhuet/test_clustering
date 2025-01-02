@@ -794,6 +794,7 @@ public:
   void setStart(const Eigen::Ref<const Eigen::Vector2d>& start) {start_ = start; calcCentroid();}
   const Eigen::Vector2d& end() const {return end_;}
   void setEnd(const Eigen::Ref<const Eigen::Vector2d>& end) {end_ = end; calcCentroid();}
+  double radius_ = 0.0;
 
 
 protected:
@@ -802,7 +803,6 @@ protected:
 private:
     Eigen::Vector2d start_;
     Eigen::Vector2d end_;
-    double radius_ = 0.0;
 
   Eigen::Vector2d centroid_;
 

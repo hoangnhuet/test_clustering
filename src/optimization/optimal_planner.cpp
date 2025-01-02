@@ -406,6 +406,7 @@ bool TebOptimalPlanner::getVelocityCommand(Twist & velocity, int look_ahead_pose
         look_ahead_poses = counter + 1;
         break;
     }
+    // std::cout<<"DT: "<<dt<<std::endl;
   }
   if (dt<=0)
   {	
@@ -432,6 +433,7 @@ inline void TebOptimalPlanner::extractVelocity(const PoseSE2 &pose1, const PoseS
   // std::cout<<"dt != 0";
   // std::cout<<"dt: "<<dt<<std::endl;
   // std::cout<<"Pose 1: "<<pose1<<"Pose2: "<<pose2<<std::endl;
+  std::cout<<"dt: "<<dt<<std::endl;
   Eigen::Vector2d deltaS = pose2.position() - pose1.position();
   // std::cout<<deltaS<<std::endl;
   Eigen::Vector2d conf1dir( cos(pose1.theta()), sin(pose1.theta()) );
