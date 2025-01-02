@@ -135,6 +135,7 @@ public:
   void initialize(const TebConfig& cfg, ObstContainer* obstacles = NULL, const ViaPointContainer* via_points = NULL);
 
 
+
   /** @name Plan a trajectory */
   //@{
 

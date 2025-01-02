@@ -203,6 +203,8 @@ void PointObstacle::visualize(cv::Mat &map, const cv::Scalar &color, double gain
     cv::circle(map, cv::Point(point.x, point.y), 2, color, -1);
 }
 
+
+
 void CircularObstacle::visualize(cv::Mat &map, const cv::Scalar &color, double gain_x, double gain_y, double map_height) const
 {
   Point2DPixel center(this->pos_.x(), this->pos_.y(), gain_x, gain_y, map_height);
@@ -226,5 +228,26 @@ void PillObstacle::visualize(cv::Mat &map, const cv::Scalar &color, double gain_
   cv::circle(map, cv::Point(point1.x, point1.y), radius, color, -1);
   cv::circle(map, cv::Point(point2.x, point2.y), radius, color, -1);
 }
+
+// int PointObstacle::type() const
+// {
+//   return 1;
+// }
+// int LineObstacle::type() const
+// {
+//   return 2;
+// }
+// int CircularObstacle::type() const
+// {
+//   return 3;
+// }
+// int PolygonObstacle::type() const
+// {
+//   return 4;
+// }
+// int PillObstacle::type() const
+// {
+//   return 5;
+// }
 
 } // namespace teb_local_planner

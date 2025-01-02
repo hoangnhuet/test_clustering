@@ -62,6 +62,12 @@ namespace teb_local_planner
 class Obstacle
 {
 public:
+  // enum for define the obstacle type
+  enum Type
+  {
+    POINT, LINE, PILL, CIRCLE, POLYGON
+  };
+  virtual Type getObstacleType() const = 0;
   
   /**
     * @brief Default constructor of the abstract obstacle class
@@ -218,7 +224,6 @@ public:
 		*/
 		virtual void visualize(cv::Mat& map, const cv::Scalar& color, double gain_x, double gain_y, double map_height) const = 0;
 
-
   /** @name Helper Functions */
   //@{ 
   //@}
@@ -248,6 +253,9 @@ typedef std::vector<ObstaclePtr> ObstContainer;
 class PointObstacle : public Obstacle
 {
 public:
+  // obtacle type is POINT:
+  // static const Type type = POINT;
+  virtual Type getObstacleType() const override {return POINT;} 
   
   /**
     * @brief Default constructor of the point obstacle class
@@ -345,6 +353,7 @@ public:
     position = pos_ + t*centroid_velocity_;
   }
 
+
   // implements getCentroid() of the base class
   virtual const Eigen::Vector2d& getCentroid() const
   {
@@ -358,6 +367,7 @@ public:
   }
   // implements visualize() of the base class
   virtual void visualize(cv::Mat& map, const cv::Scalar& color, double gain_x, double gain_y, double map_height) const;
+  // virtual int type() const;
   // Accessor methods
   const Eigen::Vector2d& position() const {return pos_;} //!< Return the current position of the obstacle (read-only)
   Eigen::Vector2d& position() {return pos_;} //!< Return the current position of the obstacle
@@ -381,7 +391,9 @@ public:
 class CircularObstacle : public Obstacle
 {
 public:
-
+  // CIRCLE
+  // static const Type type = CIRCLE;
+  virtual Type getObstacleType() const override {return CIRCLE;} 
   /**
     * @brief Default constructor of the circular obstacle class
     */
@@ -493,6 +505,7 @@ public:
   }
   // implements visualize() of the base class
 	virtual void visualize(cv::Mat& map, const cv::Scalar& color, double gain_x, double gain_y, double map_height) const;
+  // virtual int type() const;
   // Accessor methods
   const Eigen::Vector2d& position() const {return pos_;} //!< Return the current position of the obstacle (read-only)
   Eigen::Vector2d& position() {return pos_;} //!< Return the current position of the obstacle
@@ -522,6 +535,8 @@ public:
 class LineObstacle : public Obstacle
 {
 public:
+  // static const Type type = LINE;
+    virtual Type getObstacleType() const override {return LINE;} 
   //! Abbrev. for a container storing vertices (2d points defining the edge points of the polygon)
   typedef std::vector<Eigen::Vector2d,Eigen::aligned_allocator<Eigen::Vector2d> > VertexContainer;
   
@@ -632,6 +647,7 @@ public:
   }
   // implements visualize() of the base class
 	virtual void visualize(cv::Mat& map, const cv::Scalar& color, double gain_x, double gain_y, double map_height) const;
+  // virtual int type() const;
   // Access or modify line
   const Eigen::Vector2d& start() const {return start_;}
   void setStart(const Eigen::Ref<const Eigen::Vector2d>& start) {start_ = start; calcCentroid();}
@@ -660,7 +676,8 @@ public:
 class PillObstacle : public Obstacle
 {
 public:
-
+// static const Type type = PILL;
+  virtual Type getObstacleType() const override {return PILL;} 
   /**
     * @brief Default constructor of the point obstacle class
     */
@@ -770,6 +787,7 @@ public:
 
   // implements visualize() of the base class
   virtual void visualize(cv::Mat& map, const cv::Scalar& color, double gain_x, double gain_y, double map_height) const;
+  // virtual int type() const;
   
   // Access or modify line
   const Eigen::Vector2d& start() const {return start_;}
@@ -802,6 +820,8 @@ public:
 class PolygonObstacle : public Obstacle
 {
 public:
+  // static const Type type = POLYGON;
+  virtual Type getObstacleType() const override {return POLYGON;} 
     
   /**
     * @brief Default constructor of the polygon obstacle class
@@ -992,6 +1012,7 @@ public:
   int noVertices() const {return (int)vertices_.size();}
   // implements visualize() of the base class
   virtual void visualize(cv::Mat& map, const cv::Scalar& color, double gain_x, double gain_y, double map_height) const;
+  // virtual int type() const;
   
   ///@}
       

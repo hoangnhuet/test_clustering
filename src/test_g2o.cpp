@@ -70,53 +70,53 @@ public:
     }
 };
 
-// int main() {
-//     // Create optimizer
-//     g2o::SparseOptimizer optimizer;
+int main() {
+    // Create optimizer
+    g2o::SparseOptimizer optimizer;
 
-//     // Use a dense linear solver
-//     std::unique_ptr<g2o::LinearSolverDense<g2o::BlockSolverX::PoseMatrixType>> linearSolver =
-//         std::make_unique<g2o::LinearSolverDense<g2o::BlockSolverX::PoseMatrixType>>();
+    // Use a dense linear solver
+    std::unique_ptr<g2o::LinearSolverDense<g2o::BlockSolverX::PoseMatrixType>> linearSolver =
+        std::make_unique<g2o::LinearSolverDense<g2o::BlockSolverX::PoseMatrixType>>();
 
-//     std::unique_ptr<g2o::BlockSolverX> blockSolver =
-//         std::make_unique<g2o::BlockSolverX>(std::move(linearSolver));
+    std::unique_ptr<g2o::BlockSolverX> blockSolver =
+        std::make_unique<g2o::BlockSolverX>(std::move(linearSolver));
 
-//     g2o::OptimizationAlgorithmLevenberg* solver =
-//         new g2o::OptimizationAlgorithmLevenberg(std::move(blockSolver));
+    g2o::OptimizationAlgorithmLevenberg* solver =
+        new g2o::OptimizationAlgorithmLevenberg(std::move(blockSolver));
 
-//     optimizer.setAlgorithm(solver);
+    optimizer.setAlgorithm(solver);
 
-//     // Add vertex
-//     auto* v = new VertexX();
-//     v->setId(0);
-//     v->setEstimate(Eigen::Vector2d(0.0, 0.0));  // Initial guess
-//     optimizer.addVertex(v);
+    // Add vertex
+    auto* v = new VertexX();
+    v->setId(0);
+    v->setEstimate(Eigen::Vector2d(0.0, 0.0));  // Initial guess
+    optimizer.addVertex(v);
 
-//     // Add edge
-//     auto* edge = new EdgeCostFunction();
-//     edge->setId(0);
-//     edge->setVertex(0, v);
-//     edge->setMeasurement(5.0);  // Target value is 5.0
-//     edge->setInformation(Eigen::Matrix<double, 1, 1>::Identity());  // Weight of the error
-//     optimizer.addEdge(edge);
+    // Add edge
+    auto* edge = new EdgeCostFunction();
+    edge->setId(0);
+    edge->setVertex(0, v);
+    edge->setMeasurement(5.0);  // Target value is 5.0
+    edge->setInformation(Eigen::Matrix<double, 1, 1>::Identity());  // Weight of the error
+    optimizer.addEdge(edge);
 
-//     // Perform optimization
-//     Eigen::Vector2d initial_estimate = v->estimate();
-//     std::cout << "Initial estimate: " << initial_estimate[0]<<" "<<initial_estimate[1] << std::endl;
-//     optimizer.initializeOptimization();
-//     optimizer.optimize(100);  // Number of iterations
-//     initial_estimate = v->estimate();
-//     std::cout << "Optimized estimate: " << initial_estimate[0]<<" "<<initial_estimate[1] << std::endl;
+    // Perform optimization
+    Eigen::Vector2d initial_estimate = v->estimate();
+    std::cout << "Initial estimate: " << initial_estimate[0]<<" "<<initial_estimate[1] << std::endl;
+    optimizer.initializeOptimization();
+    optimizer.optimize(100);  // Number of iterations
+    initial_estimate = v->estimate();
+    std::cout << "Optimized estimate: " << initial_estimate[0]<<" "<<initial_estimate[1] << std::endl;
 
-//     return 0;
-// }
-int main()
-{
-    double vals[] = {-1, 0, 1,2};
-    for (double v : vals)
-    {
-        int s = g2o::sign(v);
-        std::cout << "sign(" << v << ") = " << s << std::endl;
-    }
     return 0;
 }
+// int main()
+// {
+//     double vals[] = {-1, 0, 1,2};
+//     for (double v : vals)
+//     {
+//         int s = g2o::sign(v);
+//         std::cout << "sign(" << v << ") = " << s << std::endl;
+//     }
+//     return 0;
+// }

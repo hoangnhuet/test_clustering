@@ -416,7 +416,7 @@ bool TebOptimalPlanner::getVelocityCommand(Twist & velocity, int look_ahead_pose
   }
   // Get velocity from the first two configurations
   extractVelocity(teb_.Pose(0), teb_.Pose(look_ahead_poses), dt, velocity);
-  std::cout << "TebOptimalPlanner::getVelocityCommand(): linear_vel: " << velocity.linear << ", angular_vel: " << velocity.angular << std::endl;
+  // std::cout << "TebOptimalPlanner::getVelocityCommand(): linear_vel: " << velocity.linear << ", angular_vel: " << velocity.angular << std::endl;
   return true;
 }
 
@@ -430,16 +430,16 @@ inline void TebOptimalPlanner::extractVelocity(const PoseSE2 &pose1, const PoseS
     return;
   }
   // std::cout<<"dt != 0";
-  std::cout<<"dt: "<<dt<<std::endl;
-  std::cout<<"Pose 1: "<<pose1<<"Pose2: "<<pose2<<std::endl;
+  // std::cout<<"dt: "<<dt<<std::endl;
+  // std::cout<<"Pose 1: "<<pose1<<"Pose2: "<<pose2<<std::endl;
   Eigen::Vector2d deltaS = pose2.position() - pose1.position();
-  std::cout<<deltaS<<std::endl;
+  // std::cout<<deltaS<<std::endl;
   Eigen::Vector2d conf1dir( cos(pose1.theta()), sin(pose1.theta()) );
   // translational velocity
   double dir = deltaS.dot(conf1dir);
-  std::cout<<"dir: "<<dir<<std::endl;
+  // std::cout<<"dir: "<<dir<<std::endl;
   velocity.linear = (double) g2o::sign(dir) * deltaS.norm()/dt;
-  std::cout<<"linear: "<<velocity.linear<<std::endl;
+  //std::cout<<"linear: "<<velocity.linear<<std::endl;
   // rotational velocity
   double orient_diff = g2o::normalize_theta(pose2.theta() - pose1.theta());
   velocity.angular = orient_diff/dt;

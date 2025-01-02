@@ -83,6 +83,7 @@ bool HomotopyClassPlanner::plan(const std::vector<Pose2D>& initial_plan, const T
   return plan(start, goal, start_vel, free_goal_vel);
 }
 
+
 bool HomotopyClassPlanner::plan(const PoseSE2& start, const PoseSE2& goal, const Twist* start_vel, bool free_goal_vel)
 {
 
@@ -529,6 +530,11 @@ void HomotopyClassPlanner::visualize(cv::Mat map, double gain_x, double gain_y, 
   //     }
   // }
   // Visualize all paths
+  if (!initialized_)
+  {
+    std::cout<<("HomotopyClassPlanner::visualize(): Has not been initialized yet. Call initialize() first.")<<std::endl;
+    return;
+  }
   if (this->tebs_.size() > 0)
   {
     for( TebOptPlannerContainer::const_iterator it_teb = this->tebs_.begin(); it_teb != this->tebs_.end(); ++it_teb )
